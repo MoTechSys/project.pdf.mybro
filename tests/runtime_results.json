@@ -1,0 +1,65 @@
+{
+  "T01": {
+    "status": "PARTIAL",
+    "actual": "ACC-A1: VLANs المطلوبة active وforwarding على trunk والمنفذ Native 998. لم توثق كل سويتشات المباني.",
+    "evidence_file": "screenshots/04_access_trunk.png",
+    "observed_on": "2026-09-13",
+    "environment": "Cisco Packet Tracer 9.0, native Linux GUI"
+  },
+  "T02": {
+    "status": "PASS",
+    "actual": "بعد إعادة فتح المحاكي وipconfig /renew: الطالب 10.10.0.17/24، VIP 10.10.0.1؛ الإدارة 10.10.5.145/26، VIP 10.10.5.129؛ DNS 10.50.2.139. ظهرت العقود في DHCP-1.",
+    "evidence_file": "screenshots/05_student_renew.png; screenshots/06_admin_dhcp.png; screenshots/07_dhcp_bindings.png",
+    "observed_on": "2026-09-13",
+    "environment": "Cisco Packet Tracer 9.0, native Linux GUI"
+  },
+  "T03": {
+    "status": "PARTIAL",
+    "actual": "التصميم الحالي: 12 جارًا FULL على CORE-1 ومسار default من OSPF؛ رُصد default ثنائي المسار على DIST-A1 وجاران FULL على EDGE. التغطية لجميع الأجهزة وأوامر OSPF التفصيلية غير مكتملة.",
+    "evidence_file": "screenshots/14_current_core_ospf.png",
+    "observed_on": "2026-09-13",
+    "environment": "Cisco Packet Tracer 9.0, native Linux GUI"
+  },
+  "T04": {
+    "status": "PASS",
+    "actual": "حُمّلت University Educational Portal من متصفح A-CYBER_STUDENTS-PC باستخدام http://edu.campus.example بعد إعادة المحاولة واستقرار الشبكة. لا يشمل HTTPS. جلسة تشخيصية بنفس سياسة المشروع؛ لا تثبت إعادة الفتح النهائية.",
+    "evidence_file": "screenshots/13_student_educational_http.png",
+    "observed_on": "2026-09-13",
+    "environment": "Cisco Packet Tracer 9.0, native Linux GUI"
+  },
+  "T09": {
+    "status": "PARTIAL",
+    "actual": "أُغلقت Gi0/2 في DIST-A1، وأصبح A2 Active لكل مجموعات المبنى A. لم تثبت استمرارية الخدمة أو يقس فقد الحزم أثناء التحويل؛ هذا اختبار واجهة LAN لا إطفاء الجهاز كله.",
+    "evidence_file": "screenshots/08_hsrp_baseline.png; screenshots/09_hsrp_failover.png",
+    "observed_on": "2026-09-13",
+    "environment": "Cisco Packet Tracer 9.0, native Linux GUI"
+  },
+  "T10": {
+    "status": "PASS",
+    "actual": "بعد no shutdown عاد DIST-A1 إلى Active بأولوية 110، وظهر A2 Standby. أُعيدت الواجهة وحُفظ running-config.",
+    "evidence_file": "screenshots/10_hsrp_preemption.png",
+    "observed_on": "2026-09-13",
+    "environment": "Cisco Packet Tracer 9.0, native Linux GUI"
+  },
+  "T15": {
+    "status": "PARTIAL",
+    "actual": "نجح Ping الطالب إلى 203.0.113.10 بنتيجة 4/4 بعد الاستقرار، وEDGE بنتيجة 5/5؛ ظهرت NAT translations. احتُفظ بمحاولة الفشل السابقة. HTTP للخادم الخارجي لم يُوثق؛ لذلك لا يعد T15 مكتملًا.",
+    "evidence_file": "screenshots/12_student_external_success.png; screenshots/16_student_nat.png",
+    "observed_on": "2026-09-13",
+    "environment": "Cisco Packet Tracer 9.0, native Linux GUI"
+  },
+  "T16": {
+    "status": "PARTIAL",
+    "actual": "فُتحت النسخة الأصلية المحفوظة بنجاح، وجُدد DHCP وتحققت HSRP. حُفظ snapshot بعد الاستعادة؛ لم يُعد فتح هذا snapshot الأخير لاختبار جميع الخدمات.",
+    "evidence_file": "screenshots/05_student_renew.png; screenshots/10_hsrp_preemption.png",
+    "observed_on": "2026-09-13",
+    "environment": "Cisco Packet Tracer 9.0, native Linux GUI"
+  },
+  "T13": {
+    "status": "PARTIAL",
+    "actual": "فحص منفذ الطالب Fa0/3: Secure-up وmaximum 1 وsticky 1 وrestrict، وعدد المخالفات صفر. لم ينفذ تبديل MAC لإثبات الحظر؛ هذا فحص أساسي فقط.",
+    "evidence_file": "screenshots/15_student_port_security.png",
+    "observed_on": "2026-09-13",
+    "environment": "Cisco Packet Tracer 9.0 native diagnostic session"
+  }
+}

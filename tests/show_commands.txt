@@ -1,0 +1,20 @@
+show vlan brief
+show interfaces trunk
+show ip interface brief
+show ip route
+show ip ospf neighbor
+show ip ospf
+show standby
+show access-lists
+show ip dhcp binding
+show ip dhcp snooping
+show ip dhcp snooping binding
+show port-security
+show port-security interface FastEthernet0/1
+show running-config
+
+Additional diagnostics:
+show spanning-tree
+show ip nat translations
+show ip dhcp pool
+show version
