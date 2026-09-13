@@ -1,9 +1,33 @@
-# University Campus Network — Final Practical Assignment (Network Analysis & Design)
+# University Campus Network — work in progress
 
-Design, implement, secure, test and document a 5-building university network on Cisco Packet Tracer.
+تصميم وتطبيق شبكة الجامعة: **71 جهاز شبكة/طرفية، 88 وصلة، 46 شبكة VLAN**، مع تقرير عربي من سبعة فصول.
 
-**Start here → [`HANDOFF_PROMPT.md`](HANDOFF_PROMPT.md)** — full task analysis, cloud-machine access, plan, and deliverables checklist.
+## الحالة الحالية — ليست نسخة تسليم نهائية مكتملة
+- نجح 7,518 فحصًا ساكنًا؛ هذه ليست اختبارات Packet Tracer تشغيلية.
+- **DHCP طالب وإدارة: موثق فعليًا**، مع عقود الخادم.
+- **HSRP: A2 أصبح Active بعد إغلاق Gi0/2 في A1، ثم عاد A1 Active عند الاستعادة**. استمرارية الخدمة أثناء التحويل لم تثبت.
+- نجح لاحقًا HTTP التعليمي من الطالب باسم النطاق، وPing الخارجي 4/4 بعد الاستقرار. HTTP الخارجي وHTTPS لم يوثقا. التقط GDB انهيارًا داخل معالجة جدول MAC مع Fast Forward، لا داخل المتصفح؛ السبب الجذري غير محسوم. تجنب Fast Forward في جلسة التحقق الحالية.
+- اختبارات ACL وSSH وDHCP مزيف وPort Security وتعطل uplink وإعادة الفتح النهائية ما زالت غير مكتملة.
+- بيانات الغلاف placeholders؛ لم تُقدم أسماء الطالب والجامعة والمدرس.
 
-- `project.pdf` — original assignment (Arabic, 14 pages)
-- `project_extracted_text.txt` — text extraction
-- `tools/soclab_join.sh` — joins the cloud Ubuntu lab machine over SSH (`ssh soclab`)
+## الملفات
+- `pt/university.pkt`: حفظ أصلي من Packet Tracer 9 بعد إعادة الواجهة للعمل؛ ليس ملفًا معتمدًا بكل الاختبارات.
+- `pt/university.xml`: المصدر المولد قبل التشغيل، وليس فك الحفظ الأخير.
+- `report/report.docx` و`report/report.pdf`: شرح عربي RTL، خطوات إعداد تفصيلية بالأوامر، وجداول وصور فعلية.
+- `report/configuration_reference.docx`: جميع إعدادات الأجهزة الـ25، أكثر من 17 ألف سطر دون اختصار؛ ملفات TXT المنفصلة هي الأفضل للنسخ إلى كل جهاز.
+- `design/`: VLSM وExcel وخرائط المنافذ والأجهزة.
+- `configs/`: الإعدادات التصميمية لـ25 جهاز بنية تحتية.
+- `diagrams/`: PNG وdrawio؛ مخططات تصميم وليست دليل تشغيل.
+- `tests/runtime_results.json`: النتائج التشغيلية المرجعية؛ `tests/test_matrix.csv`: الحالات المتبقية.
+- `screenshots/`: أدلة أصلية. 01 و02 من النموذج الأولي السابق؛ لا تعتمد لإثبات النسخة الحالية.
+
+افتح الملف باستخدام Packet Tracer 9، وانتظر التقارب ثم نفذ `ipconfig /renew` للأجهزة عند الحاجة. عناوين DHCP قد تختلف بين عمليات التجديد. بيانات دخول الأجهزة أمثلة مختبرية منشورة في configs، وليست بيانات Cisco أو السحابة.
+
+الحفظ الأصلي يضيف 50 كائن توزيع طاقة داخليًا بجانب 71 جهاز الشبكة؛ لا تُحسب ضمن المخطط المنطقي.
+
+## إعادة الإنتاج
+`python tools/build_project.py` ثم `python tools/validate_project.py` ثم `python tools/build_documents.py`.
+مولد `tools/build_packettracer.py` يحتاج Twofish؛ تشغيله يستبدل الحفظ الأصلي بملف مولد قبل التشغيل. احتفظ بنسخة قبل ذلك.
+`HANDOFF_PROMPT.md` هو سياق أولي؛ بعض حالاته وموديل التوزيع قديمة. التصميم الحالي يعتمد 2911 في Distribution للحفاظ على ارتباط ACL.
+
+طلب الدمج: https://github.com/MoTechSys/project.pdf.mybro/pull/1

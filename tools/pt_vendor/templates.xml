@@ -1,0 +1,1862 @@
+<PACKETTRACER5><NETWORK><DEVICES><DEVICE>
+    <ENGINE>
+     <TYPE customModel="" model="2960-24TT">Switch</TYPE>
+     <NAME translate="true">DHCP Snooper</NAME>
+     <POWER>true</POWER>
+     <DESCRIPTION />
+     <MODULE>
+      <TYPE>eNonRemovableModule</TYPE>
+      <MODEL />
+      <SLOT>
+       <TYPE>eNonRemovableModule</TYPE>
+       <MODULE>
+        <TYPE>eNonRemovableModule</TYPE>
+        <MODEL />
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>true</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0060.2F9B.4801</MACADDRESS>
+         <BIA>0060.2F9B.4801</BIA>
+         <CLOCKRATE>2000000</CLOCKRATE>
+         <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+         <DESCRIPTION />
+         <CHANNEL>0</CHANNEL>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>true</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0060.2F9B.4802</MACADDRESS>
+         <BIA>0060.2F9B.4802</BIA>
+         <CLOCKRATE>2000000</CLOCKRATE>
+         <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+         <DESCRIPTION />
+         <CHANNEL>0</CHANNEL>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>true</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0060.2F9B.4803</MACADDRESS>
+         <BIA>0060.2F9B.4803</BIA>
+         <CLOCKRATE>2000000</CLOCKRATE>
+         <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+         <DESCRIPTION />
+         <CHANNEL>0</CHANNEL>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0060.2F9B.4804</MACADDRESS>
+         <BIA>0060.2F9B.4804</BIA>
+         <CLOCKRATE>2000000</CLOCKRATE>
+         <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+         <DESCRIPTION />
+         <CHANNEL>0</CHANNEL>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0060.2F9B.4805</MACADDRESS>
+         <BIA>0060.2F9B.4805</BIA>
+         <CLOCKRATE>2000000</CLOCKRATE>
+         <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+         <DESCRIPTION />
+         <CHANNEL>0</CHANNEL>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0060.2F9B.4806</MACADDRESS>
+         <BIA>0060.2F9B.4806</BIA>
+         <CLOCKRATE>2000000</CLOCKRATE>
+         <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+         <DESCRIPTION />
+         <CHANNEL>0</CHANNEL>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0060.2F9B.4807</MACADDRESS>
+         <BIA>0060.2F9B.4807</BIA>
+         <CLOCKRATE>2000000</CLOCKRATE>
+         <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+         <DESCRIPTION />
+         <CHANNEL>0</CHANNEL>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0060.2F9B.4808</MACADDRESS>
+         <BIA>0060.2F9B.4808</BIA>
+         <CLOCKRATE>2000000</CLOCKRATE>
+         <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+         <DESCRIPTION />
+         <CHANNEL>0</CHANNEL>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0060.2F9B.4809</MACADDRESS>
+         <BIA>0060.2F9B.4809</BIA>
+         <CLOCKRATE>2000000</CLOCKRATE>
+         <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+         <DESCRIPTION />
+         <CHANNEL>0</CHANNEL>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0060.2F9B.480A</MACADDRESS>
+         <BIA>0060.2F9B.480A</BIA>
+         <CLOCKRATE>2000000</CLOCKRATE>
+         <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+         <DESCRIPTION />
+         <CHANNEL>0</CHANNEL>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0060.2F9B.480B</MACADDRESS>
+         <BIA>0060.2F9B.480B</BIA>
+         <CLOCKRATE>2000000</CLOCKRATE>
+         <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+         <DESCRIPTION />
+         <CHANNEL>0</CHANNEL>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0060.2F9B.480C</MACADDRESS>
+         <BIA>0060.2F9B.480C</BIA>
+         <CLOCKRATE>2000000</CLOCKRATE>
+         <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+         <DESCRIPTION />
+         <CHANNEL>0</CHANNEL>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0060.2F9B.480D</MACADDRESS>
+         <BIA>0060.2F9B.480D</BIA>
+         <CLOCKRATE>2000000</CLOCKRATE>
+         <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+         <DESCRIPTION />
+         <CHANNEL>0</CHANNEL>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0060.2F9B.480E</MACADDRESS>
+         <BIA>0060.2F9B.480E</BIA>
+         <CLOCKRATE>2000000</CLOCKRATE>
+         <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+         <DESCRIPTION />
+         <CHANNEL>0</CHANNEL>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0060.2F9B.480F</MACADDRESS>
+         <BIA>0060.2F9B.480F</BIA>
+         <CLOCKRATE>2000000</CLOCKRATE>
+         <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+         <DESCRIPTION />
+         <CHANNEL>0</CHANNEL>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0060.2F9B.4810</MACADDRESS>
+         <BIA>0060.2F9B.4810</BIA>
+         <CLOCKRATE>2000000</CLOCKRATE>
+         <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+         <DESCRIPTION />
+         <CHANNEL>0</CHANNEL>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0060.2F9B.4811</MACADDRESS>
+         <BIA>0060.2F9B.4811</BIA>
+         <CLOCKRATE>2000000</CLOCKRATE>
+         <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+         <DESCRIPTION />
+         <CHANNEL>0</CHANNEL>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0060.2F9B.4812</MACADDRESS>
+         <BIA>0060.2F9B.4812</BIA>
+         <CLOCKRATE>2000000</CLOCKRATE>
+         <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+         <DESCRIPTION />
+         <CHANNEL>0</CHANNEL>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0060.2F9B.4813</MACADDRESS>
+         <BIA>0060.2F9B.4813</BIA>
+         <CLOCKRATE>2000000</CLOCKRATE>
+         <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+         <DESCRIPTION />
+         <CHANNEL>0</CHANNEL>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0060.2F9B.4814</MACADDRESS>
+         <BIA>0060.2F9B.4814</BIA>
+         <CLOCKRATE>2000000</CLOCKRATE>
+         <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+         <DESCRIPTION />
+         <CHANNEL>0</CHANNEL>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0060.2F9B.4815</MACADDRESS>
+         <BIA>0060.2F9B.4815</BIA>
+         <CLOCKRATE>2000000</CLOCKRATE>
+         <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+         <DESCRIPTION />
+         <CHANNEL>0</CHANNEL>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0060.2F9B.4816</MACADDRESS>
+         <BIA>0060.2F9B.4816</BIA>
+         <CLOCKRATE>2000000</CLOCKRATE>
+         <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+         <DESCRIPTION />
+         <CHANNEL>0</CHANNEL>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0060.2F9B.4817</MACADDRESS>
+         <BIA>0060.2F9B.4817</BIA>
+         <CLOCKRATE>2000000</CLOCKRATE>
+         <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+         <DESCRIPTION />
+         <CHANNEL>0</CHANNEL>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0060.2F9B.4818</MACADDRESS>
+         <BIA>0060.2F9B.4818</BIA>
+         <CLOCKRATE>2000000</CLOCKRATE>
+         <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+         <DESCRIPTION />
+         <CHANNEL>0</CHANNEL>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperGigabitEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>true</PINS>
+         <BANDWIDTH>1000000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0060.2F9B.4819</MACADDRESS>
+         <BIA>0060.2F9B.4819</BIA>
+         <CLOCKRATE>2000000</CLOCKRATE>
+         <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+         <DESCRIPTION />
+         <CHANNEL>0</CHANNEL>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperGigabitEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>true</PINS>
+         <BANDWIDTH>1000000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0060.2F9B.481A</MACADDRESS>
+         <BIA>0060.2F9B.481A</BIA>
+         <CLOCKRATE>2000000</CLOCKRATE>
+         <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+         <DESCRIPTION />
+         <CHANNEL>0</CHANNEL>
+        </PORT>
+       </MODULE>
+      </SLOT>
+      <SLOT>
+       <TYPE>eNonRemovableModule</TYPE>
+      </SLOT>
+     </MODULE>
+     <CUSTOM_VARS>AAAAAA==</CUSTOM_VARS>
+     <CUSTOM_INTERFACE />
+     <SYS_CONTACT />
+     <SYS_LOCATION />
+     <COORD_SETTINGS>
+      <X_COORD>1918.54</X_COORD>
+      <Y_COORD>1918.54</Y_COORD>
+      <Z_COORD>0</Z_COORD>
+     </COORD_SETTINGS>
+     <SYS_NAME>Switch</SYS_NAME>
+     <RUNNINGCONFIG>
+      <LINE>!</LINE>
+      <LINE>version 12.2</LINE>
+      <LINE>no service timestamps log datetime msec</LINE>
+      <LINE>no service timestamps debug datetime msec</LINE>
+      <LINE>no service password-encryption</LINE>
+      <LINE>!</LINE>
+      <LINE>hostname Switch</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>ip dhcp snooping vlan 5</LINE>
+      <LINE>ip dhcp snooping</LINE>
+      <LINE>!</LINE>
+      <LINE>spanning-tree mode pvst</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet0/1</LINE>
+      <LINE> switchport access vlan 5</LINE>
+      <LINE> ip dhcp snooping trust</LINE>
+      <LINE> switchport mode access</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet0/2</LINE>
+      <LINE> switchport access vlan 5</LINE>
+      <LINE> switchport mode access</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet0/3</LINE>
+      <LINE> switchport access vlan 5</LINE>
+      <LINE> switchport mode access</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet0/4</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet0/5</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet0/6</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet0/7</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet0/8</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet0/9</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet0/10</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet0/11</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet0/12</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet0/13</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet0/14</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet0/15</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet0/16</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet0/17</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet0/18</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet0/19</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet0/20</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet0/21</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet0/22</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet0/23</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet0/24</LINE>
+      <LINE>!</LINE>
+      <LINE>interface GigabitEthernet0/1</LINE>
+      <LINE>!</LINE>
+      <LINE>interface GigabitEthernet0/2</LINE>
+      <LINE>!</LINE>
+      <LINE>interface Vlan1</LINE>
+      <LINE> no ip address</LINE>
+      <LINE> shutdown</LINE>
+      <LINE>!</LINE>
+      <LINE>interface Vlan5</LINE>
+      <LINE> no ip address</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>line con 0</LINE>
+      <LINE>!</LINE>
+      <LINE>line vty 0 4</LINE>
+      <LINE> login</LINE>
+      <LINE>line vty 5 15</LINE>
+      <LINE> login</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>end</LINE>
+     </RUNNINGCONFIG>
+     <STARTUPCONFIG />
+     <CURRENT_COMMAND_SET>2960_12.2_FX</CURRENT_COMMAND_SET>
+     <FILE_MANAGER>
+      <FILE class="CDirectory">
+       <FILE_NUMBER>0</FILE_NUMBER>
+       <NAME />
+       <DATE_TIME>0</DATE_TIME>
+       <PERMISSION>6</PERMISSION>
+       <FILE_CONTENT />
+       <FILES>
+        <FILE class="CFileSystem">
+         <FILE_NUMBER>0</FILE_NUMBER>
+         <NAME>flash:</NAME>
+         <DATE_TIME>0</DATE_TIME>
+         <PERMISSION>6</PERMISSION>
+         <FILE_CONTENT />
+         <FILES>
+          <FILE class="CFile">
+           <FILE_NUMBER>1</FILE_NUMBER>
+           <NAME>c2960-lanbase-mz.122-25.FX.bin</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CIosFileContent">
+            <DEVICE_TYPE>Switch</DEVICE_TYPE>
+            <SET_NAME>2960_12.2_FX</SET_NAME>
+           </FILE_CONTENT>
+          </FILE>
+          <FILE class="CFile">
+           <FILE_NUMBER>2</FILE_NUMBER>
+           <NAME>vlan.dat</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CVlanDatFileContent">
+            <VLAN_COUNT>6</VLAN_COUNT>
+            <VLANS>
+             <VLAN number="1" name="default" />
+             <VLAN number="5" name="VLAN0005" />
+             <VLAN number="1002" name="fddi-default" />
+             <VLAN number="1003" name="token-ring-default" />
+             <VLAN number="1004" name="fddinet-default" />
+             <VLAN number="1005" name="trnet-default" />
+            </VLANS>
+            <VTP>
+             <DOMAIN_NAME />
+             <MODE>0</MODE>
+             <VERSION>1</VERSION>
+             <PASSWORD />
+             <CONFIG_REVISION>23</CONFIG_REVISION>
+             <UPDATER_IP>0.0.0.0</UPDATER_IP>
+             <UPDATE_TIMESTAMP>3-1-93 00:00:00</UPDATE_TIMESTAMP>
+            </VTP>
+           </FILE_CONTENT>
+          </FILE>
+         </FILES>
+         <FILE_COUNTER>3</FILE_COUNTER>
+         <CAPACITY>64016384</CAPACITY>
+        </FILE>
+       </FILES>
+      </FILE>
+     </FILE_MANAGER>
+     <CONFIG_REGISTER>15</CONFIG_REGISTER>
+     <NEXT_CONFIG_REGISTER>15</NEXT_CONFIG_REGISTER>
+     <CURRENT_BOOT_FILE>flash:/c2960-lanbase-mz.122-25.FX.bin</CURRENT_BOOT_FILE>
+     <BUILD_IN_ADDR>0001.63C6.7232</BUILD_IN_ADDR>
+     <SECURITY>
+      <KEY_NAME />
+      <TEMP_KEY_NAME />
+      <RSA_KEY />
+      <TEMP_RSA_KEY />
+      <TIME_DATE />
+      <ENABLED>0</ENABLED>
+      <MODULUS_BITS>0</MODULUS_BITS>
+     </SECURITY>
+     <ALGORITHM_SETTINGS>
+      <USE_GLOBAL>true</USE_GLOBAL>
+      <CBAC_HALF_OPEN_SESSION_MULTIPLIER>1</CBAC_HALF_OPEN_SESSION_MULTIPLIER>
+      <TCP_MAX_CONNECTING_SESSIONS>100</TCP_MAX_CONNECTING_SESSIONS>
+      <TCP_MAX_OPENED_SESSIONS>1000</TCP_MAX_OPENED_SESSIONS>
+      <INTERFACE_QUEUE_SIZE>10</INTERFACE_QUEUE_SIZE>
+      <STORM_CONTROL_MULTIPLIER>10</STORM_CONTROL_MULTIPLIER>
+      <TCP_MAX_RETRANSMISSION_TIMEOUT>1000</TCP_MAX_RETRANSMISSION_TIMEOUT>
+     </ALGORITHM_SETTINGS>
+     <SERIALNUMBER>CAT1010B75R</SERIALNUMBER>
+     <VLANS>
+      <VLAN number="1" name="default" />
+      <VLAN number="5" name="VLAN0005" />
+      <VLAN number="1002" name="fddi-default" />
+      <VLAN number="1003" name="token-ring-default" />
+      <VLAN number="1004" name="fddinet-default" />
+      <VLAN number="1005" name="trnet-default" />
+     </VLANS>
+     <VTP>
+      <DOMAIN_NAME />
+      <MODE>0</MODE>
+      <VERSION>1</VERSION>
+      <PASSWORD />
+      <CONFIG_REVISION>1</CONFIG_REVISION>
+      <UPDATER_IP>0.0.0.0</UPDATER_IP>
+      <UPDATE_TIMESTAMP>3-1-93 00:05:36</UPDATE_TIMESTAMP>
+     </VTP>
+     <DHCP_SNOOPING_BINDING_DB_AGENT>
+      <CONFIGURED_FILENAME />
+      <TMP_FILENAME />
+     </DHCP_SNOOPING_BINDING_DB_AGENT>
+    </ENGINE>
+    <WORKSPACE>
+     <LOGICAL>
+      <X>203.5</X>
+      <Y>95</Y>
+      <DEVCLUSTERID>1-1</DEVCLUSTERID>
+      <CUSTOM_IMAGE_PHYSICAL />
+      <CUSTOM_IMAGE_LOGICAL />
+      <MEM_ADDR>441921976</MEM_ADDR>
+      <DEV_ADDR>240219464</DEV_ADDR>
+     </LOGICAL>
+     <PHYSICAL translate="true">Intercity,Home City,Corporate Office,Main Wiring Closet,Rack,DHCP Snooper</PHYSICAL>
+    </WORKSPACE>
+   </DEVICE>
+   <DEVICE>
+    <ENGINE>
+     <TYPE model="Server-PT">Server</TYPE>
+     <NAME translate="true">Server1</NAME>
+     <POWER>true</POWER>
+     <DESCRIPTION />
+     <MODULE>
+      <TYPE>eNonRemovableModule</TYPE>
+      <MODEL />
+      <SLOT>
+       <TYPE>ePtHostModule</TYPE>
+       <MODULE>
+        <TYPE>ePtHostModule</TYPE>
+        <MODEL>PT-HOST-NM-1CFE</MODEL>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>false</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>true</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>000D.BD86.738A</MACADDRESS>
+         <BIA>000D.BD86.738A</BIA>
+         <CLOCKRATE>0</CLOCKRATE>
+         <DESCRIPTION />
+         <CHANNEL>0</CHANNEL>
+         <IP>10.1.1.3</IP>
+         <SUBNET>255.0.0.0</SUBNET>
+         <TIMEOUT>14400000</TIMEOUT>
+         <IPV6_ENABLED>false</IPV6_ENABLED>
+         <IPV6_ADDRESS_AUTOCONFIG>false</IPV6_ADDRESS_AUTOCONFIG>
+         <IPV6_LINK_LOCAL />
+         <IPV6_DEFAULT_LINK_LOCAL>FE80::20D:BDFF:FE86:738A</IPV6_DEFAULT_LINK_LOCAL>
+         <IPV6_ADDRESSES />
+        </PORT>
+       </MODULE>
+      </SLOT>
+     </MODULE>
+     <GATEWAY />
+     <DNS_CLIENT>
+      <SERVER_IP />
+      <SERVER_IPV6 />
+     </DNS_CLIENT>
+     <WIRELESS_CLIENT>
+      <WIRELESS_COMMON>
+       <SSID>Default</SSID>
+       <ENCRYPT_TYPE>0</ENCRYPT_TYPE>
+       <AUTHEN_TYPE>0</AUTHEN_TYPE>
+      </WIRELESS_COMMON>
+      <PROFILES>
+       <WIRELESS_PROFILE>
+        <NAME>Default</NAME>
+        <SSID>Default</SSID>
+        <NETWORK_TYPE>7</NETWORK_TYPE>
+        <RADIO_BAND>0</RADIO_BAND>
+        <AUTHEN_TYPE>0</AUTHEN_TYPE>
+        <ENCRYPT_TYPE>0</ENCRYPT_TYPE>
+        <WEP_KEY />
+        <WPA_EAP_USERID />
+        <WPA_EAP_PASSWORD />
+        <DHCP_ENABLED>1</DHCP_ENABLED>
+        <IP_ADDRESS />
+        <SUBNET_MASK />
+        <DEFAULT_GATEWAY />
+        <DNS />
+        <CHANNEL>1</CHANNEL>
+       </WIRELESS_PROFILE>
+      </PROFILES>
+      <CURRENT_PROFILE>
+       <WIRELESS_PROFILE>
+        <NAME>Default</NAME>
+        <SSID>Default</SSID>
+        <NETWORK_TYPE>7</NETWORK_TYPE>
+        <RADIO_BAND>0</RADIO_BAND>
+        <AUTHEN_TYPE>0</AUTHEN_TYPE>
+        <ENCRYPT_TYPE>2</ENCRYPT_TYPE>
+        <WEP_KEY />
+        <WPA_EAP_USERID />
+        <WPA_EAP_PASSWORD />
+        <DHCP_ENABLED>1</DHCP_ENABLED>
+        <IP_ADDRESS />
+        <SUBNET_MASK />
+        <DEFAULT_GATEWAY />
+        <DNS />
+        <CHANNEL>1</CHANNEL>
+       </WIRELESS_PROFILE>
+      </CURRENT_PROFILE>
+     </WIRELESS_CLIENT>
+     <DHCP_CLIENT>
+      <PORT_DATA_MAP />
+     </DHCP_CLIENT>
+     <GATEWAYV6 />
+     <DHCPV6_MAIN>
+      <ENABLED_PORTS />
+     </DHCPV6_MAIN>
+     <FILE_MANAGER>
+      <FILE class="CDirectory">
+       <FILE_NUMBER>0</FILE_NUMBER>
+       <NAME />
+       <DATE_TIME>0</DATE_TIME>
+       <PERMISSION>6</PERMISSION>
+       <FILE_CONTENT />
+       <FILES>
+        <FILE class="CFileSystem">
+         <FILE_NUMBER>0</FILE_NUMBER>
+         <NAME>http:</NAME>
+         <DATE_TIME>0</DATE_TIME>
+         <PERMISSION>6</PERMISSION>
+         <FILE_CONTENT />
+         <FILES>
+          <FILE class="CFile">
+           <FILE_NUMBER>4</FILE_NUMBER>
+           <NAME>copyrights.html</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CHttpPage">
+            <TEXT>&lt;html&gt;
+&lt;pre&gt;
+Packet Tracer 5.1 Academy License Agreement
+
+You must agree to the following terms and conditions User Agreement that define proper use of this software. 
+
+The Academy acknowledges and agrees that Packet Tracer 5.1 is provided by Cisco to the Academy and the Academy will not, or allow anyone else to, distribute the software to any third party not associated with the Networking Academy Program, including, without limitation, any competitors of Cisco.  Academies may distribute one copy of Packet Tracer 5.1 to each Academy student, provided, however, the Academy uses reasonable efforts not to distribute to any student whom the Academy has a reason to know or the student has disclosed to Academy that the student cannot adhere to the terms and conditions set forth herein. Academy distribution of Packet Tracer 5.1 to students shall include all copyright, trademarks, or other proprietary notices and be limited to either: a) posting on Academy's Local Area Network Server with password-protected access, or b) posting to a password-protected Academy FTP site. 
+
+I.    PROPRIETARY RIGHTS AND LICENSING
+
+Cisco hereby grants Academy a nonexclusive, nontransferable license to use Packet Tracer 5.1 solely for providing instructional practice to students in accordance with the terms and conditions set forth herein. The Academy shall not make any copies or duplicates of Packet Tracer 5.1 except to distribute directly to Academy students. The Academy may not sublicense to any person its rights to distribute Packet Tracer 5.1 but may allow students to use Packet Tracer 5.1. 
+Cisco retains all title to, and, except as expressly licensed herein, all rights to Packet Tracer 5.1, all copies thereof and all related documentation and materials, and all of Cisco's Marks or any other designations. Any invoices of Cisco purporting to cover such items do not convey title to, or patent rights, copyrights, or any other proprietary interest in, such items to the Academy. 
+Academy agrees, except as otherwise expressly authorized hereunder, not to (i) make any copies, duplicates or derivative works of Packet Tracer 5.1 for profit (ii) remove, conceal, alter, or cover any product identification or notices of any proprietary or copyright restrictions from Packet Tracer 5.1. 
+II.                GUIDELINES FOR AVOIDING INFRINGEMENT
+
+Activities to AvoidThe following list describes a few of the specific scenarios to help avoid infringing any Cisco copyright or trademark rights:
+
+Ø      Do not copy, reproduce, download, sell, or distribute, directly or indirectly, any Cisco copyrighted materials including Packet Tracer 5.1 to a third party. 
+
+Ø      Do not post Packet Tracer v.5.1 on publicly accessible web sites, ftp sites or online message boards. 
+
+ 
+
+Packet Tracer 5.1 End User License Agreement
+
+IMPORTANT: PLEASE READ THIS SOFTWARE LICENSE AGREEMENT CAREFULLY. DOWNLOADING, INSTALLING OR USING THE Packet Tracer 5.1 SOFTWARE CONSTITUTES ACCEPTANCE OF THIS AGREEMENT.
+
+CISCO IS WILLING TO LICENSE THE SOFTWARE TO YOU ONLY UPON THE CONDITION THAT YOU ACCEPT ALL OF THE TERMS CONTAINED IN THIS LICENSE AGREEMENT. BY DOWNLOADING OR INSTALLING THE SOFTWARE, OR USING THE EQUIPMENT THAT CONTAINS THIS SOFTWARE, YOU ARE BINDING YOURSELF AND THE BUSINESS OR EDUCATIONAL ENTITY THAT YOU REPRESENT (COLLECTIVELY, User) TO THIS AGREEMENT. IF YOU DO NOT AGREE TO ALL OF THE TERMS OF THIS AGREEMENT, THEN CISCO IS UNWILLING TO LICENSE THE SOFTWARE TO YOU AND YOU ARE NOT AUTHORIZED TO DOWNLOAD, INSTALL OR USE THE SOFTWARE. 
+
+The following terms of this Software License Agreement (Agreement) govern Users access and use of the Software, except to the extent there is a separate signed agreement between User and Cisco governing Users use of the Software. To the extent of a conflict between the provisions of the foregoing documents, the order of precedence shall be (1) the signed agreement and (2) this Software License Agreement.
+
+License. Conditioned upon compliance with the terms and conditions of this Agreement, Cisco Systems, Inc. (Cisco) grants to User a royalty-free, nonexclusive, and nontransferable license to use the Software and Documentation solely to create configuration simulations for classroom use in teaching students participating in the Cisco Networking Academy program. Documentation means written information (whether contained in user or technical manuals, training materials, specifications or otherwise) specifically pertaining to the Software and made available by Cisco with the Software in any manner (including on CD-Rom, or on-line). 
+
+General Limitations. This is a license, not a transfer of title, to the Software and Documentation, and Cisco retains ownership of all copies of the Software and Documentation. User acknowledges that the Software and Documentation contain trade secrets of Cisco, its suppliers or licensors, including but not limited to the specific internal design and structure of individual programs and associated interface information. Accordingly, except as otherwise expressly provided under this Agreement, User shall have no right, and User specifically agrees not to:
+
+(i) transfer, assign or sublicense its license rights to any other person or entity, or use the Software on unauthorized or secondhand Cisco equipment, and User acknowledges that any attempted transfer, assignment, sublicense or use shall be void;
+
+(ii) make error corrections to or otherwise modify or adapt the Software or create derivative works based upon the Software, or permit third parties to do the same;
+
+(iii) reverse engineer or decompile, decrypt, disassemble or otherwise reduce the Software to human-readable form, except to the extent otherwise expressly permitted under applicable law notwithstanding this restriction;
+
+(iv) use or permit the Software to be used to perform services for third parties, whether on a service bureau or time sharing basis or otherwise, without the express written authorization of Cisco; or
+
+(vi) disclose, provide, or otherwise make available trade secrets contained within the Software and Documentation in any form to any third party without the prior written consent of Cisco. User shall implement reasonable security measures to protect such trade secrets.
+
+To the extent required by law, and at User's written request, Cisco shall provide User with the interface information needed to achieve interoperability between the Software and another independently created program, on payment of Cisco's applicable fee, if any. User shall observe strict obligations of confidentiality with respect to such information and shall use such information in compliance with any applicable terms and conditions upon which Cisco makes such information available. 
+
+Software, Upgrades and Additional Copies. For purposes of this Agreement, Software shall include (and the terms and conditions of this Agreement shall apply to) computer programs, as provided to User by Cisco or an authorized Cisco representative, and any upgrades, updates, bug fixes or modified versions thereto (collectively, Upgrades) or backup copies of the Software licensed or provided to User by Cisco or an authorized Cisco reseller. NOTWITHSTANDING ANY OTHER PROVISION OF THIS AGREEMENT: (1) User HAS NO LICENSE OR RIGHT TO USE ANY ADDITIONAL COPIES OR UPGRADES UNLESS User, AT THE TIME OF ACQUIRING SUCH COPY OR UPGRADE, ALREADY HOLDS A VALID LICENSE TO THE ORIGINAL SOFTWARE; AND (2) THE MAKING AND USE OF ADDITIONAL COPIES IS LIMITED TO NECESSARY BACKUP PURPOSES ONLY. 
+
+Proprietary Notices. User agrees to maintain and reproduce all copyright and other proprietary notices on all copies, in any form, of the Software in the same form and manner that such copyright and other proprietary notices are included on the Software. Except as expressly authorized in this Agreement, User shall not make any copies or duplicates of any Software without the prior written permission of Cisco.
+
+Term and Termination. This Agreement and the license granted herein shall remain effective until terminated. User may terminate this Agreement and the license at any time by destroying all copies of Software and any Documentation. User's rights under this Agreement will terminate immediately without notice from Cisco if User fails to comply with any provision of this Agreement. Upon termination, User shall destroy all copies of Software and Documentation in its possession or control. All confidentiality obligations of User and all limitations of liability and disclaimers and restrictions of warranty shall survive termination of this Agreement. In addition, the provisions of the sections titled U.S. Government End User Purchasers and General Terms Applicable to the Limited Warranty Statement and Software License shall survive termination of this Agreement. 
+
+Export. Software and Documentation, including technical data, may be subject to U.S. export control laws, including the U.S. Export Administration Act and its associated regulations, and may be subject to export or import regulations in other countries. User agrees to comply strictly with all such regulations and acknowledges that it has the responsibility to obtain licenses to export, re-export, or import Software and Documentation.
+
+U.S. Government End User Purchasers. The Software and Documentation qualify as commercial items, as that term is defined at Federal Acquisition Regulation (FAR) (48 C.F.R.) 2.101, consisting of commercial computer software and commercial computer software documentation as such terms are used in FAR 12.212. Consistent with FAR 12.212 and DoD FAR Supp. 227.7202-1 through 227.7202-4, and notwithstanding any other FAR or other contractual clause to the contrary in any agreement into which this Software License Agreement may be incorporated, User may provide to Government end user or, if this Agreement is direct, Government end user will acquire, the Software and Documentation with only those rights set forth in this Software License Agreement. Use of either the Software or Documentation or both constitutes agreement by the Government that the Software and Documentation are commercial computer software and commercial computer software documentation, and constitutes acceptance of the rights and restrictions herein. 
+
+No Warranty
+THE SOFTWARE FURNISHED UNDER THIS AGREEMENT IS PROVIDED ON AN AS IS BASIS, WITHOUT ANY WARRANTIES OR REPRESENTATIONS EXPRESS, IMPLIED OR STATUTORY; INCLUDING, WITHOUT LIMITATION, WARRANTIES OF QUALITY, PERFORMANCE, NONINFRINGEMENT, MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. NOR ARE THERE ANY WARRANTIES CREATED BY A COURSE OF DEALING, COURSE OF PERFORMANCE OR TRADE USAGE. DEVELOPER DOES NOT WARRANT THAT THE SOFTWARE WILL MEET USER'S NEEDS OR BE FREE FROM ERRORS, OR THAT THE OPERATION OF THE SOFTWARE WILL BE UNINTERRUPTED. THE FOREGOING EXCLUSIONS AND DISCLAIMERS ARE AN ESSENTIAL PART OF THIS AGREEMENT AND FORMED THE BASIS FOR DETERMINING THE FEES CHARGED FOR THE SOFTWARE. 
+
+General Terms Applicable to the No Warranty Statement and Software License
+
+Disclaimer of Liabilities. REGARDLESS WHETHER ANY REMEDY SET FORTH HEREIN FAILS OF ITS ESSENTIAL PURPOSE OR OTHERWISE, IN NO EVENT WILL CISCO OR ITS SUPPLIERS BE LIABLE FOR ANY LOST REVENUE, PROFIT, OR LOST OR DAMAGED DATA, BUSINESS INTERRUPTION, LOSS OF CAPITAL, OR FOR SPECIAL, INDIRECT, CONSEQUENTIAL, INCIDENTAL, OR PUNITIVE DAMAGES HOWEVER CAUSED AND REGARDLESS OF THE THEORY OF LIABILITY OR WHETHER ARISING OUT OF THE USE OF OR INABILITY TO USE SOFTWARE OR OTHERWISE AND EVEN IF CISCO OR ITS SUPPLIERS OR LICENSORS HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. In no event shall Cisco's or its suppliers' or licensors' liability to User, whether in contract, tort (including negligence), breach of warranty, or otherwise, exceed the price paid by User for the Software that gave rise to the claim or if the Software is part of another Product, the price paid for such other Product. BECAUSE SOME STATES OR JURISDICTIONS DO NOT ALLOW LIMITATION OR EXCLUSION OF CONSEQUENTIAL OR INCIDENTAL DAMAGES, THE ABOVE LIMITATION MAY NOT APPLY TO YOU.
+
+User agrees that the limitations of liability and disclaimers set forth herein will apply regardless of whether User has accepted the Software or any other product or service delivered by Cisco. User acknowledges and agrees that Cisco has set its prices and entered into this Agreement in reliance upon the disclaimers of warranty and the limitations of liability set forth herein, that the same reflect an allocation of risk between the parties (including the risk that a contract remedy may fail of its essential purpose and cause consequential loss), and that the same form an essential basis of the bargain between the parties. 
+
+The Warranty and the Software License shall be governed by and construed in accordance with the laws of the State of California, without reference to or application of choice of law rules or principles. The United Nations Convention on the International Sale of Goods shall not apply. If any portion hereof is found to be void or unenforceable, the remaining provisions of the Agreement shall remain in full force and effect. Except as expressly provided herein, this Agreement constitutes the entire agreement between the parties with respect to the license of the Software and Documentation and supersedes any conflicting or additional terms contained in any purchase order or elsewhere, all of which terms are excluded. This Agreement has been written in the English language, and the parties agree that the English version will govern. User waives any rights User may have under the law of User's country or province to have this Agreement written in any language other than English. 
+
+ 
+
+Cisco, Cisco Systems, and the Cisco Systems logo are registered trademarks of Cisco Systems, Inc. in the U.S. and certain other countries.  All other trademarks mentioned in this document are the property of their respective owners. 
+&lt;/html&gt;</TEXT>
+           </FILE_CONTENT>
+          </FILE>
+          <FILE class="CFile">
+           <FILE_NUMBER>3</FILE_NUMBER>
+           <NAME>helloworld.html</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CHttpPage">
+            <TEXT>&lt;html&gt;
+Hello, world!
+&lt;br&gt;&lt;a href='index.html'&gt;Back&lt;/a&gt;
+&lt;/html&gt;</TEXT>
+           </FILE_CONTENT>
+          </FILE>
+          <FILE class="CFile">
+           <FILE_NUMBER>2</FILE_NUMBER>
+           <NAME>image.html</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CHttpPage">
+            <TEXT>&lt;html&gt;
+&lt;center&gt;&lt;font size='+2' color='blue'&gt;Packet Tracer 5.x&lt;/font&gt;&lt;/center&gt;
+&lt;hr&gt;Welcome to Packet Tracer 5.x, the best thing since..... Packet Tracer 4.x.
+&lt;body&gt;
+&lt;p&gt;This is image1 from same server&lt;img src="/pt1.jpg"/&gt;&lt;/p&gt;
+&lt;p&gt;This is image2 from same server&lt;img src="/pt2.jpg"/&gt;&lt;/p&gt;
+&lt;p&gt;This is image2 from same dns server&lt;img src="http://pt.com/pt3.jpg"/&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;p&gt;Quick Links:
+&lt;br&gt;&lt;a href='index.html'&gt;Home page&lt;/a&gt;
+&lt;br&gt;&lt;a href='helloworld.html'&gt;A small page&lt;/a&gt;
+&lt;br&gt;&lt;a href='copyrights.html'&gt;Copyrights&lt;/a&gt;
+&lt;/html&gt;</TEXT>
+           </FILE_CONTENT>
+          </FILE>
+          <FILE class="CFile">
+           <FILE_NUMBER>1</FILE_NUMBER>
+           <NAME>index.html</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CHttpPage">
+            <TEXT>&lt;html&gt;
+&lt;body&gt;
+
+&lt;h2&gt;Gif picture&lt;/h2&gt;
+&lt;img border="0" src="logo.gif"/&gt;
+&lt;h2&gt;Jpg picture&lt;/h2&gt;
+&lt;img border="0" src="image.jpg" width="304" height="228" /&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</TEXT>
+           </FILE_CONTENT>
+          </FILE>
+         </FILES>
+         <FILE_COUNTER>4</FILE_COUNTER>
+         <CAPACITY>100000000</CAPACITY>
+        </FILE>
+        <FILE class="CFileSystem">
+         <FILE_NUMBER>0</FILE_NUMBER>
+         <NAME>tftp:</NAME>
+         <DATE_TIME>0</DATE_TIME>
+         <PERMISSION>6</PERMISSION>
+         <FILE_CONTENT />
+         <FILES>
+          <FILE class="CFile">
+           <FILE_NUMBER>6</FILE_NUMBER>
+           <NAME>c1841-advipservicesk9-mz.124-15.T1.bin</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CIosFileContent">
+            <DEVICE_TYPE>Router</DEVICE_TYPE>
+            <SET_NAME>1841_advip_12.4</SET_NAME>
+           </FILE_CONTENT>
+          </FILE>
+          <FILE class="CFile">
+           <FILE_NUMBER>4</FILE_NUMBER>
+           <NAME>c1841-ipbase-mz.123-14.T7.bin</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CIosFileContent">
+            <DEVICE_TYPE>Router</DEVICE_TYPE>
+            <SET_NAME>1841_12.3</SET_NAME>
+           </FILE_CONTENT>
+          </FILE>
+          <FILE class="CFile">
+           <FILE_NUMBER>5</FILE_NUMBER>
+           <NAME>c1841-ipbasek9-mz.124-12.bin</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CIosFileContent">
+            <DEVICE_TYPE>Router</DEVICE_TYPE>
+            <SET_NAME>1841_12.4</SET_NAME>
+           </FILE_CONTENT>
+          </FILE>
+          <FILE class="CFile">
+           <FILE_NUMBER>3</FILE_NUMBER>
+           <NAME>c2600-advipservicesk9-mz.124-15.T1.bin</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CIosFileContent">
+            <DEVICE_TYPE>Router</DEVICE_TYPE>
+            <SET_NAME>2600_advip_12.4</SET_NAME>
+           </FILE_CONTENT>
+          </FILE>
+          <FILE class="CFile">
+           <FILE_NUMBER>1</FILE_NUMBER>
+           <NAME>c2600-i-mz.122-28.bin</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CIosFileContent">
+            <DEVICE_TYPE>Router</DEVICE_TYPE>
+            <SET_NAME>2600_12.2</SET_NAME>
+           </FILE_CONTENT>
+          </FILE>
+          <FILE class="CFile">
+           <FILE_NUMBER>2</FILE_NUMBER>
+           <NAME>c2600-ipbasek9-mz.124-8.bin</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CIosFileContent">
+            <DEVICE_TYPE>Router</DEVICE_TYPE>
+            <SET_NAME>2600_12.4</SET_NAME>
+           </FILE_CONTENT>
+          </FILE>
+          <FILE class="CFile">
+           <FILE_NUMBER>9</FILE_NUMBER>
+           <NAME>c2800nm-advipservicesk9-mz.124-15.T1.bin</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CIosFileContent">
+            <DEVICE_TYPE>Router</DEVICE_TYPE>
+            <SET_NAME>2800_advip_12.4</SET_NAME>
+           </FILE_CONTENT>
+          </FILE>
+          <FILE class="CFile">
+           <FILE_NUMBER>7</FILE_NUMBER>
+           <NAME>c2800nm-ipbase-mz.123-14.T7.bin</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CIosFileContent">
+            <DEVICE_TYPE>Router</DEVICE_TYPE>
+            <SET_NAME>2800_12.3</SET_NAME>
+           </FILE_CONTENT>
+          </FILE>
+          <FILE class="CFile">
+           <FILE_NUMBER>8</FILE_NUMBER>
+           <NAME>c2800nm-ipbasek9-mz.124-8.bin</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CIosFileContent">
+            <DEVICE_TYPE>Router</DEVICE_TYPE>
+            <SET_NAME>2800_12.4</SET_NAME>
+           </FILE_CONTENT>
+          </FILE>
+          <FILE class="CFile">
+           <FILE_NUMBER>11</FILE_NUMBER>
+           <NAME>c2950-i6q4l2-mz.121-22.EA4.bin</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CIosFileContent">
+            <DEVICE_TYPE>Switch</DEVICE_TYPE>
+            <SET_NAME>2950_12.1_EA4</SET_NAME>
+           </FILE_CONTENT>
+          </FILE>
+          <FILE class="CFile">
+           <FILE_NUMBER>12</FILE_NUMBER>
+           <NAME>c2950-i6q4l2-mz.121-22.EA8.bin</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CIosFileContent">
+            <DEVICE_TYPE>Switch</DEVICE_TYPE>
+            <SET_NAME>2950_12.1_EA8</SET_NAME>
+           </FILE_CONTENT>
+          </FILE>
+          <FILE class="CFile">
+           <FILE_NUMBER>13</FILE_NUMBER>
+           <NAME>c2960-lanbase-mz.122-25.FX.bin</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CIosFileContent">
+            <DEVICE_TYPE>Switch</DEVICE_TYPE>
+            <SET_NAME>2960_12.2_FX</SET_NAME>
+           </FILE_CONTENT>
+          </FILE>
+          <FILE class="CFile">
+           <FILE_NUMBER>14</FILE_NUMBER>
+           <NAME>c2960-lanbase-mz.122-25.SEE1.bin</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CIosFileContent">
+            <DEVICE_TYPE>Switch</DEVICE_TYPE>
+            <SET_NAME>2960_12.2_SEE1</SET_NAME>
+           </FILE_CONTENT>
+          </FILE>
+          <FILE class="CFile">
+           <FILE_NUMBER>16</FILE_NUMBER>
+           <NAME>c3560-advipservicesk9-mz.122-37.SE1.bin</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CIosFileContent">
+            <DEVICE_TYPE>MultiLayerSwitch</DEVICE_TYPE>
+            <SET_NAME>3560_advip_12.2</SET_NAME>
+           </FILE_CONTENT>
+          </FILE>
+          <FILE class="CFile">
+           <FILE_NUMBER>10</FILE_NUMBER>
+           <NAME>pt1000-i-mz.122-28.bin</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CIosFileContent">
+            <DEVICE_TYPE>Router</DEVICE_TYPE>
+            <SET_NAME>pt_12.2</SET_NAME>
+           </FILE_CONTENT>
+          </FILE>
+          <FILE class="CFile">
+           <FILE_NUMBER>15</FILE_NUMBER>
+           <NAME>pt3000-i6q4l2-mz.121-22.EA4.bin</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CIosFileContent">
+            <DEVICE_TYPE>Switch</DEVICE_TYPE>
+            <SET_NAME>pt_12.1_EA4</SET_NAME>
+           </FILE_CONTENT>
+          </FILE>
+         </FILES>
+         <FILE_COUNTER>16</FILE_COUNTER>
+         <CAPACITY>1000000000</CAPACITY>
+        </FILE>
+       </FILES>
+      </FILE>
+     </FILE_MANAGER>
+     <ALGORITHM_SETTINGS>
+      <USE_GLOBAL>true</USE_GLOBAL>
+      <CBAC_HALF_OPEN_SESSION_MULTIPLIER>1</CBAC_HALF_OPEN_SESSION_MULTIPLIER>
+      <TCP_MAX_CONNECTING_SESSIONS>100</TCP_MAX_CONNECTING_SESSIONS>
+      <TCP_MAX_OPENED_SESSIONS>1000</TCP_MAX_OPENED_SESSIONS>
+      <INTERFACE_QUEUE_SIZE>10</INTERFACE_QUEUE_SIZE>
+      <STORM_CONTROL_MULTIPLIER>1000</STORM_CONTROL_MULTIPLIER>
+     </ALGORITHM_SETTINGS>
+     <TRAFFICGEN_USER_TRAFFIC />
+     <FILE_MANAGER>
+      <FILE class="CDirectory">
+       <FILE_NUMBER>0</FILE_NUMBER>
+       <NAME />
+       <DATE_TIME>0</DATE_TIME>
+       <PERMISSION>6</PERMISSION>
+       <FILE_CONTENT />
+       <FILES>
+        <FILE class="CFileSystem">
+         <FILE_NUMBER>0</FILE_NUMBER>
+         <NAME>http:</NAME>
+         <DATE_TIME>0</DATE_TIME>
+         <PERMISSION>6</PERMISSION>
+         <FILE_CONTENT />
+         <FILES>
+          <FILE class="CFile">
+           <FILE_NUMBER>4</FILE_NUMBER>
+           <NAME>copyrights.html</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CHttpPage">
+            <TEXT>&lt;html&gt;
+&lt;pre&gt;
+Packet Tracer 5.1 Academy License Agreement
+
+You must agree to the following terms and conditions User Agreement that define proper use of this software. 
+
+The Academy acknowledges and agrees that Packet Tracer 5.1 is provided by Cisco to the Academy and the Academy will not, or allow anyone else to, distribute the software to any third party not associated with the Networking Academy Program, including, without limitation, any competitors of Cisco.  Academies may distribute one copy of Packet Tracer 5.1 to each Academy student, provided, however, the Academy uses reasonable efforts not to distribute to any student whom the Academy has a reason to know or the student has disclosed to Academy that the student cannot adhere to the terms and conditions set forth herein. Academy distribution of Packet Tracer 5.1 to students shall include all copyright, trademarks, or other proprietary notices and be limited to either: a) posting on Academy's Local Area Network Server with password-protected access, or b) posting to a password-protected Academy FTP site. 
+
+I.    PROPRIETARY RIGHTS AND LICENSING
+
+Cisco hereby grants Academy a nonexclusive, nontransferable license to use Packet Tracer 5.1 solely for providing instructional practice to students in accordance with the terms and conditions set forth herein. The Academy shall not make any copies or duplicates of Packet Tracer 5.1 except to distribute directly to Academy students. The Academy may not sublicense to any person its rights to distribute Packet Tracer 5.1 but may allow students to use Packet Tracer 5.1. 
+Cisco retains all title to, and, except as expressly licensed herein, all rights to Packet Tracer 5.1, all copies thereof and all related documentation and materials, and all of Cisco's Marks or any other designations. Any invoices of Cisco purporting to cover such items do not convey title to, or patent rights, copyrights, or any other proprietary interest in, such items to the Academy. 
+Academy agrees, except as otherwise expressly authorized hereunder, not to (i) make any copies, duplicates or derivative works of Packet Tracer 5.1 for profit (ii) remove, conceal, alter, or cover any product identification or notices of any proprietary or copyright restrictions from Packet Tracer 5.1. 
+II.                GUIDELINES FOR AVOIDING INFRINGEMENT
+
+Activities to AvoidThe following list describes a few of the specific scenarios to help avoid infringing any Cisco copyright or trademark rights:
+
+Ø      Do not copy, reproduce, download, sell, or distribute, directly or indirectly, any Cisco copyrighted materials including Packet Tracer 5.1 to a third party. 
+
+Ø      Do not post Packet Tracer v.5.1 on publicly accessible web sites, ftp sites or online message boards. 
+
+ 
+
+Packet Tracer 5.1 End User License Agreement
+
+IMPORTANT: PLEASE READ THIS SOFTWARE LICENSE AGREEMENT CAREFULLY. DOWNLOADING, INSTALLING OR USING THE Packet Tracer 5.1 SOFTWARE CONSTITUTES ACCEPTANCE OF THIS AGREEMENT.
+
+CISCO IS WILLING TO LICENSE THE SOFTWARE TO YOU ONLY UPON THE CONDITION THAT YOU ACCEPT ALL OF THE TERMS CONTAINED IN THIS LICENSE AGREEMENT. BY DOWNLOADING OR INSTALLING THE SOFTWARE, OR USING THE EQUIPMENT THAT CONTAINS THIS SOFTWARE, YOU ARE BINDING YOURSELF AND THE BUSINESS OR EDUCATIONAL ENTITY THAT YOU REPRESENT (COLLECTIVELY, User) TO THIS AGREEMENT. IF YOU DO NOT AGREE TO ALL OF THE TERMS OF THIS AGREEMENT, THEN CISCO IS UNWILLING TO LICENSE THE SOFTWARE TO YOU AND YOU ARE NOT AUTHORIZED TO DOWNLOAD, INSTALL OR USE THE SOFTWARE. 
+
+The following terms of this Software License Agreement (Agreement) govern Users access and use of the Software, except to the extent there is a separate signed agreement between User and Cisco governing Users use of the Software. To the extent of a conflict between the provisions of the foregoing documents, the order of precedence shall be (1) the signed agreement and (2) this Software License Agreement.
+
+License. Conditioned upon compliance with the terms and conditions of this Agreement, Cisco Systems, Inc. (Cisco) grants to User a royalty-free, nonexclusive, and nontransferable license to use the Software and Documentation solely to create configuration simulations for classroom use in teaching students participating in the Cisco Networking Academy program. Documentation means written information (whether contained in user or technical manuals, training materials, specifications or otherwise) specifically pertaining to the Software and made available by Cisco with the Software in any manner (including on CD-Rom, or on-line). 
+
+General Limitations. This is a license, not a transfer of title, to the Software and Documentation, and Cisco retains ownership of all copies of the Software and Documentation. User acknowledges that the Software and Documentation contain trade secrets of Cisco, its suppliers or licensors, including but not limited to the specific internal design and structure of individual programs and associated interface information. Accordingly, except as otherwise expressly provided under this Agreement, User shall have no right, and User specifically agrees not to:
+
+(i) transfer, assign or sublicense its license rights to any other person or entity, or use the Software on unauthorized or secondhand Cisco equipment, and User acknowledges that any attempted transfer, assignment, sublicense or use shall be void;
+
+(ii) make error corrections to or otherwise modify or adapt the Software or create derivative works based upon the Software, or permit third parties to do the same;
+
+(iii) reverse engineer or decompile, decrypt, disassemble or otherwise reduce the Software to human-readable form, except to the extent otherwise expressly permitted under applicable law notwithstanding this restriction;
+
+(iv) use or permit the Software to be used to perform services for third parties, whether on a service bureau or time sharing basis or otherwise, without the express written authorization of Cisco; or
+
+(vi) disclose, provide, or otherwise make available trade secrets contained within the Software and Documentation in any form to any third party without the prior written consent of Cisco. User shall implement reasonable security measures to protect such trade secrets.
+
+To the extent required by law, and at User's written request, Cisco shall provide User with the interface information needed to achieve interoperability between the Software and another independently created program, on payment of Cisco's applicable fee, if any. User shall observe strict obligations of confidentiality with respect to such information and shall use such information in compliance with any applicable terms and conditions upon which Cisco makes such information available. 
+
+Software, Upgrades and Additional Copies. For purposes of this Agreement, Software shall include (and the terms and conditions of this Agreement shall apply to) computer programs, as provided to User by Cisco or an authorized Cisco representative, and any upgrades, updates, bug fixes or modified versions thereto (collectively, Upgrades) or backup copies of the Software licensed or provided to User by Cisco or an authorized Cisco reseller. NOTWITHSTANDING ANY OTHER PROVISION OF THIS AGREEMENT: (1) User HAS NO LICENSE OR RIGHT TO USE ANY ADDITIONAL COPIES OR UPGRADES UNLESS User, AT THE TIME OF ACQUIRING SUCH COPY OR UPGRADE, ALREADY HOLDS A VALID LICENSE TO THE ORIGINAL SOFTWARE; AND (2) THE MAKING AND USE OF ADDITIONAL COPIES IS LIMITED TO NECESSARY BACKUP PURPOSES ONLY. 
+
+Proprietary Notices. User agrees to maintain and reproduce all copyright and other proprietary notices on all copies, in any form, of the Software in the same form and manner that such copyright and other proprietary notices are included on the Software. Except as expressly authorized in this Agreement, User shall not make any copies or duplicates of any Software without the prior written permission of Cisco.
+
+Term and Termination. This Agreement and the license granted herein shall remain effective until terminated. User may terminate this Agreement and the license at any time by destroying all copies of Software and any Documentation. User's rights under this Agreement will terminate immediately without notice from Cisco if User fails to comply with any provision of this Agreement. Upon termination, User shall destroy all copies of Software and Documentation in its possession or control. All confidentiality obligations of User and all limitations of liability and disclaimers and restrictions of warranty shall survive termination of this Agreement. In addition, the provisions of the sections titled U.S. Government End User Purchasers and General Terms Applicable to the Limited Warranty Statement and Software License shall survive termination of this Agreement. 
+
+Export. Software and Documentation, including technical data, may be subject to U.S. export control laws, including the U.S. Export Administration Act and its associated regulations, and may be subject to export or import regulations in other countries. User agrees to comply strictly with all such regulations and acknowledges that it has the responsibility to obtain licenses to export, re-export, or import Software and Documentation.
+
+U.S. Government End User Purchasers. The Software and Documentation qualify as commercial items, as that term is defined at Federal Acquisition Regulation (FAR) (48 C.F.R.) 2.101, consisting of commercial computer software and commercial computer software documentation as such terms are used in FAR 12.212. Consistent with FAR 12.212 and DoD FAR Supp. 227.7202-1 through 227.7202-4, and notwithstanding any other FAR or other contractual clause to the contrary in any agreement into which this Software License Agreement may be incorporated, User may provide to Government end user or, if this Agreement is direct, Government end user will acquire, the Software and Documentation with only those rights set forth in this Software License Agreement. Use of either the Software or Documentation or both constitutes agreement by the Government that the Software and Documentation are commercial computer software and commercial computer software documentation, and constitutes acceptance of the rights and restrictions herein. 
+
+No Warranty
+THE SOFTWARE FURNISHED UNDER THIS AGREEMENT IS PROVIDED ON AN AS IS BASIS, WITHOUT ANY WARRANTIES OR REPRESENTATIONS EXPRESS, IMPLIED OR STATUTORY; INCLUDING, WITHOUT LIMITATION, WARRANTIES OF QUALITY, PERFORMANCE, NONINFRINGEMENT, MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. NOR ARE THERE ANY WARRANTIES CREATED BY A COURSE OF DEALING, COURSE OF PERFORMANCE OR TRADE USAGE. DEVELOPER DOES NOT WARRANT THAT THE SOFTWARE WILL MEET USER'S NEEDS OR BE FREE FROM ERRORS, OR THAT THE OPERATION OF THE SOFTWARE WILL BE UNINTERRUPTED. THE FOREGOING EXCLUSIONS AND DISCLAIMERS ARE AN ESSENTIAL PART OF THIS AGREEMENT AND FORMED THE BASIS FOR DETERMINING THE FEES CHARGED FOR THE SOFTWARE. 
+
+General Terms Applicable to the No Warranty Statement and Software License
+
+Disclaimer of Liabilities. REGARDLESS WHETHER ANY REMEDY SET FORTH HEREIN FAILS OF ITS ESSENTIAL PURPOSE OR OTHERWISE, IN NO EVENT WILL CISCO OR ITS SUPPLIERS BE LIABLE FOR ANY LOST REVENUE, PROFIT, OR LOST OR DAMAGED DATA, BUSINESS INTERRUPTION, LOSS OF CAPITAL, OR FOR SPECIAL, INDIRECT, CONSEQUENTIAL, INCIDENTAL, OR PUNITIVE DAMAGES HOWEVER CAUSED AND REGARDLESS OF THE THEORY OF LIABILITY OR WHETHER ARISING OUT OF THE USE OF OR INABILITY TO USE SOFTWARE OR OTHERWISE AND EVEN IF CISCO OR ITS SUPPLIERS OR LICENSORS HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. In no event shall Cisco's or its suppliers' or licensors' liability to User, whether in contract, tort (including negligence), breach of warranty, or otherwise, exceed the price paid by User for the Software that gave rise to the claim or if the Software is part of another Product, the price paid for such other Product. BECAUSE SOME STATES OR JURISDICTIONS DO NOT ALLOW LIMITATION OR EXCLUSION OF CONSEQUENTIAL OR INCIDENTAL DAMAGES, THE ABOVE LIMITATION MAY NOT APPLY TO YOU.
+
+User agrees that the limitations of liability and disclaimers set forth herein will apply regardless of whether User has accepted the Software or any other product or service delivered by Cisco. User acknowledges and agrees that Cisco has set its prices and entered into this Agreement in reliance upon the disclaimers of warranty and the limitations of liability set forth herein, that the same reflect an allocation of risk between the parties (including the risk that a contract remedy may fail of its essential purpose and cause consequential loss), and that the same form an essential basis of the bargain between the parties. 
+
+The Warranty and the Software License shall be governed by and construed in accordance with the laws of the State of California, without reference to or application of choice of law rules or principles. The United Nations Convention on the International Sale of Goods shall not apply. If any portion hereof is found to be void or unenforceable, the remaining provisions of the Agreement shall remain in full force and effect. Except as expressly provided herein, this Agreement constitutes the entire agreement between the parties with respect to the license of the Software and Documentation and supersedes any conflicting or additional terms contained in any purchase order or elsewhere, all of which terms are excluded. This Agreement has been written in the English language, and the parties agree that the English version will govern. User waives any rights User may have under the law of User's country or province to have this Agreement written in any language other than English. 
+
+ 
+
+Cisco, Cisco Systems, and the Cisco Systems logo are registered trademarks of Cisco Systems, Inc. in the U.S. and certain other countries.  All other trademarks mentioned in this document are the property of their respective owners. 
+&lt;/html&gt;</TEXT>
+           </FILE_CONTENT>
+          </FILE>
+          <FILE class="CFile">
+           <FILE_NUMBER>3</FILE_NUMBER>
+           <NAME>helloworld.html</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CHttpPage">
+            <TEXT>&lt;html&gt;
+Hello, world!
+&lt;br&gt;&lt;a href='index.html'&gt;Back&lt;/a&gt;
+&lt;/html&gt;</TEXT>
+           </FILE_CONTENT>
+          </FILE>
+          <FILE class="CFile">
+           <FILE_NUMBER>2</FILE_NUMBER>
+           <NAME>image.html</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CHttpPage">
+            <TEXT>&lt;html&gt;
+&lt;center&gt;&lt;font size='+2' color='blue'&gt;Packet Tracer 5.x&lt;/font&gt;&lt;/center&gt;
+&lt;hr&gt;Welcome to Packet Tracer 5.x, the best thing since..... Packet Tracer 4.x.
+&lt;body&gt;
+&lt;p&gt;This is image1 from same server&lt;img src="/pt1.jpg"/&gt;&lt;/p&gt;
+&lt;p&gt;This is image2 from same server&lt;img src="/pt2.jpg"/&gt;&lt;/p&gt;
+&lt;p&gt;This is image2 from same dns server&lt;img src="http://pt.com/pt3.jpg"/&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;p&gt;Quick Links:
+&lt;br&gt;&lt;a href='index.html'&gt;Home page&lt;/a&gt;
+&lt;br&gt;&lt;a href='helloworld.html'&gt;A small page&lt;/a&gt;
+&lt;br&gt;&lt;a href='copyrights.html'&gt;Copyrights&lt;/a&gt;
+&lt;/html&gt;</TEXT>
+           </FILE_CONTENT>
+          </FILE>
+          <FILE class="CFile">
+           <FILE_NUMBER>1</FILE_NUMBER>
+           <NAME>index.html</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CHttpPage">
+            <TEXT>&lt;html&gt;
+&lt;body&gt;
+
+&lt;h2&gt;Gif picture&lt;/h2&gt;
+&lt;img border="0" src="logo.gif"/&gt;
+&lt;h2&gt;Jpg picture&lt;/h2&gt;
+&lt;img border="0" src="image.jpg" width="304" height="228" /&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</TEXT>
+           </FILE_CONTENT>
+          </FILE>
+         </FILES>
+         <FILE_COUNTER>4</FILE_COUNTER>
+         <CAPACITY>100000000</CAPACITY>
+        </FILE>
+        <FILE class="CFileSystem">
+         <FILE_NUMBER>0</FILE_NUMBER>
+         <NAME>tftp:</NAME>
+         <DATE_TIME>0</DATE_TIME>
+         <PERMISSION>6</PERMISSION>
+         <FILE_CONTENT />
+         <FILES>
+          <FILE class="CFile">
+           <FILE_NUMBER>6</FILE_NUMBER>
+           <NAME>c1841-advipservicesk9-mz.124-15.T1.bin</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CIosFileContent">
+            <DEVICE_TYPE>Router</DEVICE_TYPE>
+            <SET_NAME>1841_advip_12.4</SET_NAME>
+           </FILE_CONTENT>
+          </FILE>
+          <FILE class="CFile">
+           <FILE_NUMBER>4</FILE_NUMBER>
+           <NAME>c1841-ipbase-mz.123-14.T7.bin</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CIosFileContent">
+            <DEVICE_TYPE>Router</DEVICE_TYPE>
+            <SET_NAME>1841_12.3</SET_NAME>
+           </FILE_CONTENT>
+          </FILE>
+          <FILE class="CFile">
+           <FILE_NUMBER>5</FILE_NUMBER>
+           <NAME>c1841-ipbasek9-mz.124-12.bin</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CIosFileContent">
+            <DEVICE_TYPE>Router</DEVICE_TYPE>
+            <SET_NAME>1841_12.4</SET_NAME>
+           </FILE_CONTENT>
+          </FILE>
+          <FILE class="CFile">
+           <FILE_NUMBER>3</FILE_NUMBER>
+           <NAME>c2600-advipservicesk9-mz.124-15.T1.bin</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CIosFileContent">
+            <DEVICE_TYPE>Router</DEVICE_TYPE>
+            <SET_NAME>2600_advip_12.4</SET_NAME>
+           </FILE_CONTENT>
+          </FILE>
+          <FILE class="CFile">
+           <FILE_NUMBER>1</FILE_NUMBER>
+           <NAME>c2600-i-mz.122-28.bin</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CIosFileContent">
+            <DEVICE_TYPE>Router</DEVICE_TYPE>
+            <SET_NAME>2600_12.2</SET_NAME>
+           </FILE_CONTENT>
+          </FILE>
+          <FILE class="CFile">
+           <FILE_NUMBER>2</FILE_NUMBER>
+           <NAME>c2600-ipbasek9-mz.124-8.bin</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CIosFileContent">
+            <DEVICE_TYPE>Router</DEVICE_TYPE>
+            <SET_NAME>2600_12.4</SET_NAME>
+           </FILE_CONTENT>
+          </FILE>
+          <FILE class="CFile">
+           <FILE_NUMBER>9</FILE_NUMBER>
+           <NAME>c2800nm-advipservicesk9-mz.124-15.T1.bin</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CIosFileContent">
+            <DEVICE_TYPE>Router</DEVICE_TYPE>
+            <SET_NAME>2800_advip_12.4</SET_NAME>
+           </FILE_CONTENT>
+          </FILE>
+          <FILE class="CFile">
+           <FILE_NUMBER>7</FILE_NUMBER>
+           <NAME>c2800nm-ipbase-mz.123-14.T7.bin</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CIosFileContent">
+            <DEVICE_TYPE>Router</DEVICE_TYPE>
+            <SET_NAME>2800_12.3</SET_NAME>
+           </FILE_CONTENT>
+          </FILE>
+          <FILE class="CFile">
+           <FILE_NUMBER>8</FILE_NUMBER>
+           <NAME>c2800nm-ipbasek9-mz.124-8.bin</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CIosFileContent">
+            <DEVICE_TYPE>Router</DEVICE_TYPE>
+            <SET_NAME>2800_12.4</SET_NAME>
+           </FILE_CONTENT>
+          </FILE>
+          <FILE class="CFile">
+           <FILE_NUMBER>11</FILE_NUMBER>
+           <NAME>c2950-i6q4l2-mz.121-22.EA4.bin</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CIosFileContent">
+            <DEVICE_TYPE>Switch</DEVICE_TYPE>
+            <SET_NAME>2950_12.1_EA4</SET_NAME>
+           </FILE_CONTENT>
+          </FILE>
+          <FILE class="CFile">
+           <FILE_NUMBER>12</FILE_NUMBER>
+           <NAME>c2950-i6q4l2-mz.121-22.EA8.bin</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CIosFileContent">
+            <DEVICE_TYPE>Switch</DEVICE_TYPE>
+            <SET_NAME>2950_12.1_EA8</SET_NAME>
+           </FILE_CONTENT>
+          </FILE>
+          <FILE class="CFile">
+           <FILE_NUMBER>13</FILE_NUMBER>
+           <NAME>c2960-lanbase-mz.122-25.FX.bin</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CIosFileContent">
+            <DEVICE_TYPE>Switch</DEVICE_TYPE>
+            <SET_NAME>2960_12.2_FX</SET_NAME>
+           </FILE_CONTENT>
+          </FILE>
+          <FILE class="CFile">
+           <FILE_NUMBER>14</FILE_NUMBER>
+           <NAME>c2960-lanbase-mz.122-25.SEE1.bin</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CIosFileContent">
+            <DEVICE_TYPE>Switch</DEVICE_TYPE>
+            <SET_NAME>2960_12.2_SEE1</SET_NAME>
+           </FILE_CONTENT>
+          </FILE>
+          <FILE class="CFile">
+           <FILE_NUMBER>16</FILE_NUMBER>
+           <NAME>c3560-advipservicesk9-mz.122-37.SE1.bin</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CIosFileContent">
+            <DEVICE_TYPE>MultiLayerSwitch</DEVICE_TYPE>
+            <SET_NAME>3560_advip_12.2</SET_NAME>
+           </FILE_CONTENT>
+          </FILE>
+          <FILE class="CFile">
+           <FILE_NUMBER>10</FILE_NUMBER>
+           <NAME>pt1000-i-mz.122-28.bin</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CIosFileContent">
+            <DEVICE_TYPE>Router</DEVICE_TYPE>
+            <SET_NAME>pt_12.2</SET_NAME>
+           </FILE_CONTENT>
+          </FILE>
+          <FILE class="CFile">
+           <FILE_NUMBER>15</FILE_NUMBER>
+           <NAME>pt3000-i6q4l2-mz.121-22.EA4.bin</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CIosFileContent">
+            <DEVICE_TYPE>Switch</DEVICE_TYPE>
+            <SET_NAME>pt_12.1_EA4</SET_NAME>
+           </FILE_CONTENT>
+          </FILE>
+         </FILES>
+         <FILE_COUNTER>16</FILE_COUNTER>
+         <CAPACITY>1000000000</CAPACITY>
+        </FILE>
+       </FILES>
+      </FILE>
+     </FILE_MANAGER>
+     <HTTP_SERVER>
+      <ENABLED>1</ENABLED>
+      <USERNAME />
+      <PASSWORD />
+     </HTTP_SERVER>
+     <HTTPS_SERVER>
+      <HTTPSENABLED>1</HTTPSENABLED>
+     </HTTPS_SERVER>
+     <DNS_SERVER>
+      <ENABLED>1</ENABLED>
+      <NAMESERVER-DATABASE />
+     </DNS_SERVER>
+     <DHCP_SERVER>
+      <ENABLED>1</ENABLED>
+      <POOLS>
+       <POOL>
+        <NAME>serverPool</NAME>
+        <NETWORK>10.0.0.0</NETWORK>
+        <MASK>255.0.0.0</MASK>
+        <DEFAULT_ROUTER>0.0.0.0</DEFAULT_ROUTER>
+        <START_IP>10.0.0.0</START_IP>
+        <END_IP>10.255.255.255</END_IP>
+        <DNS_SERVER>0.0.0.0</DNS_SERVER>
+        <MAX_USERS>0</MAX_USERS>
+       </POOL>
+      </POOLS>
+     </DHCP_SERVER>
+     <TFTP_SERVER>
+      <ENABLED>1</ENABLED>
+     </TFTP_SERVER>
+     <NTP_SERVER>
+      <ENABLED>1</ENABLED>
+      <ENABLED_SERVER_AUTHENTICATE>0</ENABLED_SERVER_AUTHENTICATE>
+      <KEY>0</KEY>
+      <MD5PASSWORD />
+     </NTP_SERVER>
+     <SYSLOG_SERVER>
+      <ENABLED>1</ENABLED>
+     </SYSLOG_SERVER>
+     <ACS_SERVER>
+      <ENABLED>1</ENABLED>
+      <USERS />
+      <ACS_CLIENTS />
+      <RADIUS_SETTINGS>
+       <AUTH_PORT>1812</AUTH_PORT>
+      </RADIUS_SETTINGS>
+     </ACS_SERVER>
+    </ENGINE>
+    <WORKSPACE>
+     <LOGICAL>
+      <X>378</X>
+      <Y>227</Y>
+      <DEVCLUSTERID>1-1</DEVCLUSTERID>
+      <CUSTOM_IMAGE_PHYSICAL />
+      <CUSTOM_IMAGE_LOGICAL />
+      <MEM_ADDR>196713888</MEM_ADDR>
+      <DEV_ADDR>196653224</DEV_ADDR>
+     </LOGICAL>
+     <PHYSICAL translate="true">Intercity,Home City,Corporate Office,Main Wiring Closet,Rack,Server1</PHYSICAL>
+    </WORKSPACE>
+   </DEVICE>
+  <DEVICE>
+    <ENGINE>
+     <TYPE customModel="" model="2911">Router</TYPE>
+     <NAME translate="true">Router3</NAME>
+     <POWER>true</POWER>
+     <DESCRIPTION />
+     <MODULE>
+      <TYPE>eNonRemovableModule</TYPE>
+      <MODEL />
+      <SLOT>
+       <TYPE>eNonRemovableModule</TYPE>
+       <MODULE>
+        <TYPE>eNonRemovableModule</TYPE>
+        <MODEL />
+        <SLOT>
+         <TYPE>eInterfaceCard</TYPE>
+        </SLOT>
+        <SLOT>
+         <TYPE>eInterfaceCard</TYPE>
+        </SLOT>
+        <SLOT>
+         <TYPE>eInterfaceCard</TYPE>
+        </SLOT>
+        <SLOT>
+         <TYPE>eInterfaceCard</TYPE>
+        </SLOT>
+        <PORT>
+         <TYPE>eCopperGigabitEthernet</TYPE>
+         <POWER>false</POWER>
+         <PINS>false</PINS>
+         <BANDWIDTH>1000000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0060.709D.AD01</MACADDRESS>
+         <BIA>0060.709D.AD01</BIA>
+         <CLOCKRATE>2000000</CLOCKRATE>
+         <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+         <DESCRIPTION />
+         <CHANNEL>0</CHANNEL>
+         <IP />
+         <SUBNET />
+         <PORT_GATEWAY />
+         <PORT_DNS />
+         <PORT_DHCP_ENABLE>false</PORT_DHCP_ENABLE>
+         <ND_SUPPRESSED>false</ND_SUPPRESSED>
+         <TIMEOUT>14400000</TIMEOUT>
+         <PC_FIREWALL>false</PC_FIREWALL>
+         <PC_IPV6_FIREWALL>false</PC_IPV6_FIREWALL>
+         <IPV6_ENABLED>false</IPV6_ENABLED>
+         <IPV6_ADDRESS_AUTOCONFIG>false</IPV6_ADDRESS_AUTOCONFIG>
+         <IPV6_PORT_GATEWAY />
+         <IPV6_PORT_DNS />
+         <IPV6_LINK_LOCAL />
+         <IPV6_DEFAULT_LINK_LOCAL>FE80::260:70FF:FE9D:AD01</IPV6_DEFAULT_LINK_LOCAL>
+         <IPV6_PORT_AUTO_CONFIG_ENABLED>false</IPV6_PORT_AUTO_CONFIG_ENABLED>
+         <IPV6_PORT_DHCP_ENABLED>false</IPV6_PORT_DHCP_ENABLED>
+         <IPV6_ADDRESSES />
+        </PORT>
+        <PORT>
+         <TYPE>eCopperGigabitEthernet</TYPE>
+         <POWER>false</POWER>
+         <PINS>false</PINS>
+         <BANDWIDTH>1000000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0060.709D.AD02</MACADDRESS>
+         <BIA>0060.709D.AD02</BIA>
+         <CLOCKRATE>2000000</CLOCKRATE>
+         <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+         <DESCRIPTION />
+         <CHANNEL>0</CHANNEL>
+         <IP />
+         <SUBNET />
+         <PORT_GATEWAY />
+         <PORT_DNS />
+         <PORT_DHCP_ENABLE>false</PORT_DHCP_ENABLE>
+         <ND_SUPPRESSED>false</ND_SUPPRESSED>
+         <TIMEOUT>14400000</TIMEOUT>
+         <PC_FIREWALL>false</PC_FIREWALL>
+         <PC_IPV6_FIREWALL>false</PC_IPV6_FIREWALL>
+         <IPV6_ENABLED>false</IPV6_ENABLED>
+         <IPV6_ADDRESS_AUTOCONFIG>false</IPV6_ADDRESS_AUTOCONFIG>
+         <IPV6_PORT_GATEWAY />
+         <IPV6_PORT_DNS />
+         <IPV6_LINK_LOCAL />
+         <IPV6_DEFAULT_LINK_LOCAL>FE80::260:70FF:FE9D:AD02</IPV6_DEFAULT_LINK_LOCAL>
+         <IPV6_PORT_AUTO_CONFIG_ENABLED>false</IPV6_PORT_AUTO_CONFIG_ENABLED>
+         <IPV6_PORT_DHCP_ENABLED>false</IPV6_PORT_DHCP_ENABLED>
+         <IPV6_ADDRESSES />
+        </PORT>
+        <PORT>
+         <TYPE>eCopperGigabitEthernet</TYPE>
+         <POWER>false</POWER>
+         <PINS>false</PINS>
+         <BANDWIDTH>1000000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0060.709D.AD03</MACADDRESS>
+         <BIA>0060.709D.AD03</BIA>
+         <CLOCKRATE>2000000</CLOCKRATE>
+         <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+         <DESCRIPTION />
+         <CHANNEL>0</CHANNEL>
+         <IP />
+         <SUBNET />
+         <PORT_GATEWAY />
+         <PORT_DNS />
+         <PORT_DHCP_ENABLE>false</PORT_DHCP_ENABLE>
+         <ND_SUPPRESSED>false</ND_SUPPRESSED>
+         <TIMEOUT>14400000</TIMEOUT>
+         <PC_FIREWALL>false</PC_FIREWALL>
+         <PC_IPV6_FIREWALL>false</PC_IPV6_FIREWALL>
+         <IPV6_ENABLED>false</IPV6_ENABLED>
+         <IPV6_ADDRESS_AUTOCONFIG>false</IPV6_ADDRESS_AUTOCONFIG>
+         <IPV6_PORT_GATEWAY />
+         <IPV6_PORT_DNS />
+         <IPV6_LINK_LOCAL />
+         <IPV6_DEFAULT_LINK_LOCAL>FE80::260:70FF:FE9D:AD03</IPV6_DEFAULT_LINK_LOCAL>
+         <IPV6_PORT_AUTO_CONFIG_ENABLED>false</IPV6_PORT_AUTO_CONFIG_ENABLED>
+         <IPV6_PORT_DHCP_ENABLED>false</IPV6_PORT_DHCP_ENABLED>
+         <IPV6_ADDRESSES />
+        </PORT>
+       </MODULE>
+      </SLOT>
+     </MODULE>
+     <CUSTOM_VARS>AAAAAA==</CUSTOM_VARS>
+     <CUSTOM_INTERFACE />
+     <SYS_CONTACT />
+     <SYS_LOCATION />
+     <COORD_SETTINGS>
+      <X_COORD>1918.54</X_COORD>
+      <Y_COORD>1918.54</Y_COORD>
+      <Z_COORD>0</Z_COORD>
+     </COORD_SETTINGS>
+     <SYS_NAME>Router</SYS_NAME>
+     <RUNNINGCONFIG>
+      <LINE>!</LINE>
+      <LINE>version 15.1</LINE>
+      <LINE>no service timestamps log datetime msec</LINE>
+      <LINE>no service timestamps debug datetime msec</LINE>
+      <LINE>no service password-encryption</LINE>
+      <LINE>!</LINE>
+      <LINE>hostname Router</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>license udi pid CISCO2911/K9 sn FTX1524HPC2</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>spanning-tree mode pvst</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>interface GigabitEthernet0/0</LINE>
+      <LINE> no ip address</LINE>
+      <LINE> duplex auto</LINE>
+      <LINE> speed auto</LINE>
+      <LINE> shutdown</LINE>
+      <LINE>!</LINE>
+      <LINE>interface GigabitEthernet0/1</LINE>
+      <LINE> no ip address</LINE>
+      <LINE> duplex auto</LINE>
+      <LINE> speed auto</LINE>
+      <LINE> shutdown</LINE>
+      <LINE>!</LINE>
+      <LINE>interface GigabitEthernet0/2</LINE>
+      <LINE> no ip address</LINE>
+      <LINE> duplex auto</LINE>
+      <LINE> speed auto</LINE>
+      <LINE> shutdown</LINE>
+      <LINE>!</LINE>
+      <LINE>interface Vlan1</LINE>
+      <LINE> no ip address</LINE>
+      <LINE> shutdown</LINE>
+      <LINE>!</LINE>
+      <LINE>ip classless</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>no cdp run</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>line con 0</LINE>
+      <LINE>!</LINE>
+      <LINE>line aux 0</LINE>
+      <LINE>!</LINE>
+      <LINE>line vty 0 4</LINE>
+      <LINE> login</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>end</LINE>
+     </RUNNINGCONFIG>
+     <STARTUPCONFIG />
+     <CURRENT_COMMAND_SET>2900_universal_base_15.1</CURRENT_COMMAND_SET>
+     <FILE_MANAGER>
+      <FILE class="CDirectory">
+       <FILE_NUMBER>0</FILE_NUMBER>
+       <NAME />
+       <DATE_TIME>0</DATE_TIME>
+       <PERMISSION>6</PERMISSION>
+       <FILE_CONTENT />
+       <FILES>
+        <FILE class="CFileSystem">
+         <FILE_NUMBER>0</FILE_NUMBER>
+         <NAME>flash:</NAME>
+         <DATE_TIME>0</DATE_TIME>
+         <PERMISSION>6</PERMISSION>
+         <FILE_CONTENT />
+         <FILES>
+          <FILE class="CFile">
+           <FILE_NUMBER>3</FILE_NUMBER>
+           <NAME>c2900-universalk9-mz.SPA.151-4.M4.bin</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CIosFileContent">
+            <DEVICE_TYPE>Router</DEVICE_TYPE>
+            <SET_NAME>2900_universal_base_15.1</SET_NAME>
+           </FILE_CONTENT>
+          </FILE>
+          <FILE class="CFile">
+           <FILE_NUMBER>2</FILE_NUMBER>
+           <NAME>sigdef-category.xml</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CIpsCategoryFileContent">
+            <SIG_CAT />
+           </FILE_CONTENT>
+          </FILE>
+          <FILE class="CFile">
+           <FILE_NUMBER>1</FILE_NUMBER>
+           <NAME>sigdef-default.xml</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CIpsDatFileContent">
+            <ICMP_SIGNATURE>
+             <SIGNATURE>
+              <SIG_ID>2004</SIG_ID>
+              <SUB_ID>0</SUB_ID>
+              <RETIRED>0</RETIRED>
+              <ENABLED>0</ENABLED>
+              <EVENT_ACTION>0</EVENT_ACTION>
+             </SIGNATURE>
+            </ICMP_SIGNATURE>
+           </FILE_CONTENT>
+          </FILE>
+         </FILES>
+         <FILE_COUNTER>3</FILE_COUNTER>
+         <CAPACITY>255744000</CAPACITY>
+        </FILE>
+       </FILES>
+      </FILE>
+     </FILE_MANAGER>
+     <BOOT_SYSTEMS />
+     <CONFIG_REGISTER>8450</CONFIG_REGISTER>
+     <NEXT_CONFIG_REGISTER>8450</NEXT_CONFIG_REGISTER>
+     <CURRENT_BOOT_FILE>flash:/c2900-universalk9-mz.SPA.151-4.M4.bin</CURRENT_BOOT_FILE>
+     <BUILD_IN_ADDR>00E0.B07A.E1E4</BUILD_IN_ADDR>
+     <SECURITY>
+      <KEY_NAME />
+      <TEMP_KEY_NAME />
+      <RSA_KEY />
+      <TEMP_RSA_KEY />
+      <TIME_DATE />
+      <ENABLED>0</ENABLED>
+      <MODULUS_BITS>0</MODULUS_BITS>
+     </SECURITY>
+     <ALGORITHM_SETTINGS>
+      <USE_GLOBAL>true</USE_GLOBAL>
+      <CBAC_HALF_OPEN_SESSION_MULTIPLIER>1</CBAC_HALF_OPEN_SESSION_MULTIPLIER>
+      <TCP_MAX_CONNECTING_SESSIONS>100</TCP_MAX_CONNECTING_SESSIONS>
+      <TCP_MAX_OPENED_SESSIONS>1000</TCP_MAX_OPENED_SESSIONS>
+      <INTERFACE_QUEUE_SIZE>10</INTERFACE_QUEUE_SIZE>
+      <STORM_CONTROL_MULTIPLIER>10</STORM_CONTROL_MULTIPLIER>
+      <TCP_MAX_RETRANSMISSION_TIMEOUT>1000</TCP_MAX_RETRANSMISSION_TIMEOUT>
+     </ALGORITHM_SETTINGS>
+     <SERIALNUMBER>FTX1524HPC2</SERIALNUMBER>
+     <LICENSE_MANAGER>
+      <NEXT_UNIQUE_ID>5</NEXT_UNIQUE_ID>
+      <LICENSES>
+       <LICENSE>
+        <UNIQUE_ID>1</UNIQUE_ID>
+        <STORE_INDEX>0</STORE_INDEX>
+        <CURRENT_BOOT>2</CURRENT_BOOT>
+        <NEXT_REBOOT>2</NEXT_REBOOT>
+        <LICENSE_COUNT>0</LICENSE_COUNT>
+        <RIGHT_TO_USE>0</RIGHT_TO_USE>
+        <ENFORCED>0</ENFORCED>
+        <LICENSE_TYPE>1</LICENSE_TYPE>
+        <FEATURE_NAME>ipbasek9</FEATURE_NAME>
+        <TECHNOLOGY>ipbase</TECHNOLOGY>
+        <VERSION>1.0</VERSION>
+        <LICENSE_STATE>Active, In Use</LICENSE_STATE>
+        <EVAL_TOTAL>208 weeks 2 days</EVAL_TOTAL>
+        <EVAL_LEFT>208 weeks 2 days</EVAL_LEFT>
+        <EVAL_USED>0  minute  0  second</EVAL_USED>
+        <LICENSE_PRIORITY>Medium</LICENSE_PRIORITY>
+        <STORE_NAME>Primary License Storage</STORE_NAME>
+       </LICENSE>
+       <LICENSE>
+        <UNIQUE_ID>2</UNIQUE_ID>
+        <STORE_INDEX>0</STORE_INDEX>
+        <CURRENT_BOOT>0</CURRENT_BOOT>
+        <NEXT_REBOOT>0</NEXT_REBOOT>
+        <LICENSE_COUNT>0</LICENSE_COUNT>
+        <RIGHT_TO_USE>1</RIGHT_TO_USE>
+        <ENFORCED>1</ENFORCED>
+        <LICENSE_TYPE>5</LICENSE_TYPE>
+        <FEATURE_NAME>securityk9</FEATURE_NAME>
+        <TECHNOLOGY>security</TECHNOLOGY>
+        <VERSION>1.0</VERSION>
+        <LICENSE_STATE>Inactive</LICENSE_STATE>
+        <EVAL_TOTAL>208 weeks 2 days</EVAL_TOTAL>
+        <EVAL_LEFT>208 weeks 2 days</EVAL_LEFT>
+        <EVAL_USED>0  minute  0  second</EVAL_USED>
+        <LICENSE_PRIORITY>None</LICENSE_PRIORITY>
+        <STORE_NAME>Evaluation License Storage</STORE_NAME>
+       </LICENSE>
+       <LICENSE>
+        <UNIQUE_ID>3</UNIQUE_ID>
+        <STORE_INDEX>1</STORE_INDEX>
+        <CURRENT_BOOT>0</CURRENT_BOOT>
+        <NEXT_REBOOT>0</NEXT_REBOOT>
+        <LICENSE_COUNT>0</LICENSE_COUNT>
+        <RIGHT_TO_USE>1</RIGHT_TO_USE>
+        <ENFORCED>1</ENFORCED>
+        <LICENSE_TYPE>0</LICENSE_TYPE>
+        <FEATURE_NAME>datak9</FEATURE_NAME>
+        <TECHNOLOGY>data</TECHNOLOGY>
+        <VERSION>1.0</VERSION>
+        <LICENSE_STATE>Inactive</LICENSE_STATE>
+        <EVAL_TOTAL>208 weeks 2 days</EVAL_TOTAL>
+        <EVAL_LEFT>208 weeks 2 days</EVAL_LEFT>
+        <EVAL_USED>0  minute  0  second</EVAL_USED>
+        <LICENSE_PRIORITY>None</LICENSE_PRIORITY>
+        <STORE_NAME>Evaluation License Storage</STORE_NAME>
+       </LICENSE>
+       <LICENSE>
+        <UNIQUE_ID>4</UNIQUE_ID>
+        <STORE_INDEX>2</STORE_INDEX>
+        <CURRENT_BOOT>0</CURRENT_BOOT>
+        <NEXT_REBOOT>0</NEXT_REBOOT>
+        <LICENSE_COUNT>0</LICENSE_COUNT>
+        <RIGHT_TO_USE>1</RIGHT_TO_USE>
+        <ENFORCED>1</ENFORCED>
+        <LICENSE_TYPE>5</LICENSE_TYPE>
+        <FEATURE_NAME>uck9</FEATURE_NAME>
+        <TECHNOLOGY>uc</TECHNOLOGY>
+        <VERSION>1.0</VERSION>
+        <LICENSE_STATE>Inactive</LICENSE_STATE>
+        <EVAL_TOTAL>208 weeks 2 days</EVAL_TOTAL>
+        <EVAL_LEFT>208 weeks 2 days</EVAL_LEFT>
+        <EVAL_USED>0  minute  0  second</EVAL_USED>
+        <LICENSE_PRIORITY>None</LICENSE_PRIORITY>
+        <STORE_NAME>Evaluation License Storage</STORE_NAME>
+       </LICENSE>
+      </LICENSES>
+     </LICENSE_MANAGER>
+     <VLANS>
+      <VLAN number="1" name="default" />
+      <VLAN number="1002" name="fddi-default" />
+      <VLAN number="1003" name="token-ring-default" />
+      <VLAN number="1004" name="fddinet-default" />
+      <VLAN number="1005" name="trnet-default" />
+     </VLANS>
+     <VTP>
+      <DOMAIN_NAME />
+      <MODE>0</MODE>
+      <VERSION>1</VERSION>
+      <PASSWORD />
+      <CONFIG_REVISION>0</CONFIG_REVISION>
+      <UPDATER_IP>0.0.0.0</UPDATER_IP>
+      <UPDATE_TIMESTAMP>0-0-00 00:00:00</UPDATE_TIMESTAMP>
+     </VTP>
+     <SIG_IPSPROCESS>
+      <SIGNATURE>
+       <SIG_ID>2004</SIG_ID>
+       <SUB_ID>0</SUB_ID>
+       <RETIRED>0</RETIRED>
+       <ENABLED>0</ENABLED>
+       <EVENT_ACTION>0</EVENT_ACTION>
+      </SIGNATURE>
+     </SIG_IPSPROCESS>
+    </ENGINE>
+    <WORKSPACE>
+     <LOGICAL>
+      <X>78</X>
+      <Y>294</Y>
+      <DEVCLUSTERID>1-1</DEVCLUSTERID>
+      <CUSTOM_IMAGE_PHYSICAL />
+      <CUSTOM_IMAGE_LOGICAL />
+      <MEM_ADDR>210298488</MEM_ADDR>
+      <DEV_ADDR>210112040</DEV_ADDR>
+     </LOGICAL>
+     <PHYSICAL translate="true">Intercity,Home City,Corporate Office,Main Wiring Closet,Rack,Router3</PHYSICAL>
+    </WORKSPACE>
+   </DEVICE></DEVICES></NETWORK></PACKETTRACER5>

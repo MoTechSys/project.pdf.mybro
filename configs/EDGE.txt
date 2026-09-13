@@ -1,0 +1,80 @@
+enable
+configure terminal
+hostname EDGE
+no ip domain-lookup
+ip domain-name campus.example
+enable secret LabOnly26Enable9
+username netadmin privilege 15 secret LabOnly26Admin9
+service password-encryption
+banner motd #AUTHORIZED CAMPUS IT ACCESS ONLY. ACTIVITY MAY BE MONITORED.#
+no ip http server
+no ip http secure-server
+ip access-list standard VTY-IT
+ permit host 10.50.3.10
+ deny any
+exit
+line console 0
+ login local
+ exec-timeout 10 0
+ logging synchronous
+exit
+line vty 0 4
+ login local
+ transport input ssh
+ access-class VTY-IT in
+ exec-timeout 5 0
+exit
+crypto key generate rsa general-keys modulus 2048
+ip ssh version 2
+interface Loopback0
+ ip address 10.255.255.30 255.255.255.255
+exit
+interface GigabitEthernet0/0
+ description TO_CORE-1_GigabitEthernet1/0/12
+ ip address 10.0.0.86 255.255.255.252
+ ip ospf network point-to-point
+ no shutdown
+exit
+interface GigabitEthernet0/1
+ description TO_CORE-2_GigabitEthernet1/0/12
+ ip address 10.0.0.90 255.255.255.252
+ ip ospf network point-to-point
+ no shutdown
+exit
+router ospf 1
+ router-id 10.255.255.30
+ passive-interface default
+ no passive-interface GigabitEthernet0/0
+ no passive-interface GigabitEthernet0/1
+ network 10.0.0.86 0.0.0.0 area 0
+ network 10.0.0.90 0.0.0.0 area 0
+ network 10.255.255.30 0.0.0.0 area 0
+ network 10.255.254.30 0.0.0.0 area 0
+ default-information originate
+exit
+interface Loopback99
+ ip address 10.255.254.30 255.255.255.255
+exit
+interface GigabitEthernet0/0
+ ip nat inside
+exit
+interface GigabitEthernet0/1
+ ip nat inside
+exit
+interface GigabitEthernet0/2
+ description SIMULATED_ISP
+ ip address 198.51.100.1 255.255.255.252
+ ip nat outside
+ no shutdown
+exit
+ip access-list standard NAT-CAMPUS
+ permit 10.10.0.0 0.0.255.255
+ permit 10.20.0.0 0.0.255.255
+ permit 10.30.0.0 0.0.255.255
+ permit 10.40.0.0 0.0.255.255
+ permit 10.50.0.0 0.0.255.255
+exit
+ip nat inside source list NAT-CAMPUS interface GigabitEthernet0/2 overload
+ip route 0.0.0.0 0.0.0.0 198.51.100.2
+end
+write memory

@@ -1,0 +1,283 @@
+enable
+configure terminal
+hostname DHCP-1
+no ip domain-lookup
+ip domain-name campus.example
+enable secret LabOnly26Enable9
+username netadmin privilege 15 secret LabOnly26Admin9
+service password-encryption
+banner motd #AUTHORIZED CAMPUS IT ACCESS ONLY. ACTIVITY MAY BE MONITORED.#
+no ip http server
+no ip http secure-server
+ip access-list standard VTY-IT
+ permit host 10.50.3.10
+ deny any
+exit
+line console 0
+ login local
+ exec-timeout 10 0
+ logging synchronous
+exit
+line vty 0 4
+ login local
+ transport input ssh
+ access-class VTY-IT in
+ exec-timeout 5 0
+exit
+crypto key generate rsa general-keys modulus 2048
+ip ssh version 2
+interface GigabitEthernet0/0
+ ip address 10.50.2.138 255.255.255.192
+ no shutdown
+exit
+ip route 0.0.0.0 0.0.0.0 10.50.2.129
+ip dhcp excluded-address 10.10.5.129 10.10.5.143
+ip dhcp pool A_V10
+ network 10.10.5.128 255.255.255.192
+ default-router 10.10.5.129
+ dns-server 10.50.2.139
+ domain-name campus.example
+exit
+ip dhcp excluded-address 10.10.4.1 10.10.4.15
+ip dhcp pool A_V20
+ network 10.10.4.0 255.255.255.128
+ default-router 10.10.4.1
+ dns-server 10.50.2.139
+ domain-name campus.example
+exit
+ip dhcp excluded-address 10.10.0.1 10.10.0.15
+ip dhcp pool A_V30
+ network 10.10.0.0 255.255.255.0
+ default-router 10.10.0.1
+ dns-server 10.50.2.139
+ domain-name campus.example
+exit
+ip dhcp excluded-address 10.10.1.1 10.10.1.15
+ip dhcp pool A_V31
+ network 10.10.1.0 255.255.255.0
+ default-router 10.10.1.1
+ dns-server 10.50.2.139
+ domain-name campus.example
+exit
+ip dhcp excluded-address 10.10.2.1 10.10.2.15
+ip dhcp pool A_V32
+ network 10.10.2.0 255.255.255.0
+ default-router 10.10.2.1
+ dns-server 10.50.2.139
+ domain-name campus.example
+exit
+ip dhcp excluded-address 10.10.3.1 10.10.3.15
+ip dhcp pool A_V40
+ network 10.10.3.0 255.255.255.0
+ default-router 10.10.3.1
+ dns-server 10.50.2.139
+ domain-name campus.example
+exit
+ip dhcp excluded-address 10.10.4.129 10.10.4.143
+ip dhcp pool A_V60
+ network 10.10.4.128 255.255.255.128
+ default-router 10.10.4.129
+ dns-server 10.50.2.139
+ domain-name campus.example
+exit
+ip dhcp excluded-address 10.10.5.1 10.10.5.15
+ip dhcp pool A_V70
+ network 10.10.5.0 255.255.255.128
+ default-router 10.10.5.1
+ dns-server 10.50.2.139
+ domain-name campus.example
+exit
+ip dhcp excluded-address 10.20.4.1 10.20.4.15
+ip dhcp pool B_V10
+ network 10.20.4.0 255.255.255.192
+ default-router 10.20.4.1
+ dns-server 10.50.2.139
+ domain-name campus.example
+exit
+ip dhcp excluded-address 10.20.2.1 10.20.2.15
+ip dhcp pool B_V20
+ network 10.20.2.0 255.255.255.128
+ default-router 10.20.2.1
+ dns-server 10.50.2.139
+ domain-name campus.example
+exit
+ip dhcp excluded-address 10.20.0.1 10.20.0.15
+ip dhcp pool B_V30
+ network 10.20.0.0 255.255.255.0
+ default-router 10.20.0.1
+ dns-server 10.50.2.139
+ domain-name campus.example
+exit
+ip dhcp excluded-address 10.20.1.1 10.20.1.15
+ip dhcp pool B_V31
+ network 10.20.1.0 255.255.255.0
+ default-router 10.20.1.1
+ dns-server 10.50.2.139
+ domain-name campus.example
+exit
+ip dhcp excluded-address 10.20.2.129 10.20.2.143
+ip dhcp pool B_V40
+ network 10.20.2.128 255.255.255.128
+ default-router 10.20.2.129
+ dns-server 10.50.2.139
+ domain-name campus.example
+exit
+ip dhcp excluded-address 10.20.3.1 10.20.3.15
+ip dhcp pool B_V60
+ network 10.20.3.0 255.255.255.128
+ default-router 10.20.3.1
+ dns-server 10.50.2.139
+ domain-name campus.example
+exit
+ip dhcp excluded-address 10.20.3.129 10.20.3.143
+ip dhcp pool B_V70
+ network 10.20.3.128 255.255.255.128
+ default-router 10.20.3.129
+ dns-server 10.50.2.139
+ domain-name campus.example
+exit
+ip dhcp excluded-address 10.30.3.129 10.30.3.143
+ip dhcp pool C_V10
+ network 10.30.3.128 255.255.255.192
+ default-router 10.30.3.129
+ dns-server 10.50.2.139
+ domain-name campus.example
+exit
+ip dhcp excluded-address 10.30.3.193 10.30.3.207
+ip dhcp pool C_V20
+ network 10.30.3.192 255.255.255.192
+ default-router 10.30.3.193
+ dns-server 10.50.2.139
+ domain-name campus.example
+exit
+ip dhcp excluded-address 10.30.0.1 10.30.0.15
+ip dhcp pool C_V30
+ network 10.30.0.0 255.255.255.0
+ default-router 10.30.0.1
+ dns-server 10.50.2.139
+ domain-name campus.example
+exit
+ip dhcp excluded-address 10.30.1.1 10.30.1.15
+ip dhcp pool C_V31
+ network 10.30.1.0 255.255.255.0
+ default-router 10.30.1.1
+ dns-server 10.50.2.139
+ domain-name campus.example
+exit
+ip dhcp excluded-address 10.30.2.1 10.30.2.15
+ip dhcp pool C_V40
+ network 10.30.2.0 255.255.255.128
+ default-router 10.30.2.1
+ dns-server 10.50.2.139
+ domain-name campus.example
+exit
+ip dhcp excluded-address 10.30.2.129 10.30.2.143
+ip dhcp pool C_V60
+ network 10.30.2.128 255.255.255.128
+ default-router 10.30.2.129
+ dns-server 10.50.2.139
+ domain-name campus.example
+exit
+ip dhcp excluded-address 10.30.3.1 10.30.3.15
+ip dhcp pool C_V70
+ network 10.30.3.0 255.255.255.128
+ default-router 10.30.3.1
+ dns-server 10.50.2.139
+ domain-name campus.example
+exit
+ip dhcp excluded-address 10.40.4.1 10.40.4.15
+ip dhcp pool D_V10
+ network 10.40.4.0 255.255.255.192
+ default-router 10.40.4.1
+ dns-server 10.50.2.139
+ domain-name campus.example
+exit
+ip dhcp excluded-address 10.40.2.1 10.40.2.15
+ip dhcp pool D_V20
+ network 10.40.2.0 255.255.255.128
+ default-router 10.40.2.1
+ dns-server 10.50.2.139
+ domain-name campus.example
+exit
+ip dhcp excluded-address 10.40.0.1 10.40.0.15
+ip dhcp pool D_V30
+ network 10.40.0.0 255.255.255.0
+ default-router 10.40.0.1
+ dns-server 10.50.2.139
+ domain-name campus.example
+exit
+ip dhcp excluded-address 10.40.1.1 10.40.1.15
+ip dhcp pool D_V31
+ network 10.40.1.0 255.255.255.0
+ default-router 10.40.1.1
+ dns-server 10.50.2.139
+ domain-name campus.example
+exit
+ip dhcp excluded-address 10.40.2.129 10.40.2.143
+ip dhcp pool D_V32
+ network 10.40.2.128 255.255.255.128
+ default-router 10.40.2.129
+ dns-server 10.50.2.139
+ domain-name campus.example
+exit
+ip dhcp excluded-address 10.40.3.1 10.40.3.15
+ip dhcp pool D_V60
+ network 10.40.3.0 255.255.255.128
+ default-router 10.40.3.1
+ dns-server 10.50.2.139
+ domain-name campus.example
+exit
+ip dhcp excluded-address 10.40.3.129 10.40.3.143
+ip dhcp pool D_V70
+ network 10.40.3.128 255.255.255.128
+ default-router 10.40.3.129
+ dns-server 10.50.2.139
+ domain-name campus.example
+exit
+ip dhcp excluded-address 10.50.0.1 10.50.0.15
+ip dhcp pool E_V10
+ network 10.50.0.0 255.255.255.128
+ default-router 10.50.0.1
+ dns-server 10.50.2.139
+ domain-name campus.example
+exit
+ip dhcp excluded-address 10.50.0.129 10.50.0.143
+ip dhcp pool E_V11
+ network 10.50.0.128 255.255.255.128
+ default-router 10.50.0.129
+ dns-server 10.50.2.139
+ domain-name campus.example
+exit
+ip dhcp excluded-address 10.50.2.1 10.50.2.15
+ip dhcp pool E_V12
+ network 10.50.2.0 255.255.255.192
+ default-router 10.50.2.1
+ dns-server 10.50.2.139
+ domain-name campus.example
+exit
+ip dhcp excluded-address 10.50.2.65 10.50.2.79
+ip dhcp pool E_V13
+ network 10.50.2.64 255.255.255.192
+ default-router 10.50.2.65
+ dns-server 10.50.2.139
+ domain-name campus.example
+exit
+ip dhcp excluded-address 10.50.1.1 10.50.1.15
+ip dhcp pool E_V60
+ network 10.50.1.0 255.255.255.128
+ default-router 10.50.1.1
+ dns-server 10.50.2.139
+ domain-name campus.example
+exit
+ip dhcp excluded-address 10.50.1.129 10.50.1.143
+ip dhcp pool E_V70
+ network 10.50.1.128 255.255.255.128
+ default-router 10.50.1.129
+ dns-server 10.50.2.139
+ domain-name campus.example
+exit
+interface range GigabitEthernet0/1-2
+ shutdown
+exit
+end
+write memory

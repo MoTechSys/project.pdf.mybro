@@ -1,0 +1,8 @@
+{
+  "format_roundtrip": "PASS",
+  "devices": 71,
+  "links": 88,
+  "bridge_mac_uniqueness": "PASS",
+  "runtime_status": "NOT_PROVEN_BY_GENERATOR",
+  "model_source": "design/campus.json"
+}
